@@ -49,3 +49,44 @@
 2018-10-24 01:41:17,120 — legacy.api — INFO — ID tt0496424 found for query 30 Rock
 2018-10-24 01:41:17,120 — legacy.api — INFO — Looking for season information.
 2018-10-24 01:41:18,688 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 11:10:20,020 — legacy.api — WARNING — No ID found for query Scrubs
+2018-10-24 11:10:20,020 — legacy.api — INFO — Looking for season information.
+2018-10-24 11:10:37,919 — legacy.api — WARNING — No ID found for query scrubs
+2018-10-24 11:10:37,920 — legacy.api — INFO — Looking for season information.
+2018-10-24 11:16:23,950 — legacy.api — INFO — ID tt0285403 found for query scrubs
+2018-10-24 11:16:23,950 — legacy.api — INFO — Looking for season information.
+2018-10-24 11:16:25,605 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 11:17:23,037 — legacy.api — INFO — ID tt0472954 found for query It's Always Sunny in Philadelphia
+2018-10-24 11:17:23,037 — legacy.api — INFO — Looking for season information.
+2018-10-24 11:17:23,680 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 11:17:51,119 — legacy.data_processing — WARNING — No Ratings for episode: Making Dennis Reynolds a Murderer
+2018-10-24 11:17:51,119 — legacy.data_processing — WARNING — No Ratings for episode: Episode #13.1
+2018-10-24 11:17:51,119 — legacy.data_processing — WARNING — No Ratings for episode: Episode #13.4
+2018-10-24 11:17:51,119 — legacy.data_processing — WARNING — No Ratings for episode: Episode #13.5
+2018-10-24 11:17:51,119 — legacy.data_processing — WARNING — No Ratings for episode: Episode #13.6
+2018-10-24 11:17:51,120 — legacy.data_processing — WARNING — No Ratings for episode: Episode #13.7
+2018-10-24 11:17:51,120 — legacy.data_processing — WARNING — No Ratings for episode: Episode #13.9
+2018-10-24 11:17:51,120 — legacy.data_processing — WARNING — No Ratings for episode: Episode #14.1
+2018-10-24 11:17:51,120 — legacy.data_processing — WARNING — No Ratings for episode: Episode #14.4
+2018-10-24 11:17:51,120 — legacy.data_processing — WARNING — No Ratings for episode: Episode #14.5
+2018-10-24 11:17:51,120 — legacy.data_processing — WARNING — No Ratings for episode: Episode #14.6
+2018-10-24 11:17:51,120 — legacy.data_processing — WARNING — No Ratings for episode: Episode #14.7
+2018-10-24 11:17:51,120 — legacy.data_processing — WARNING — No Ratings for episode: Episode #14.8
+2018-10-24 11:17:51,120 — legacy.data_processing — WARNING — No Ratings for episode: Episode #14.9
+2018-10-24 11:17:51,121 — legacy.data_processing — WARNING — No Ratings for episode: Episode #14.10
+2018-10-24 11:21:56,506 — legacy.api — INFO — ID tt0472954 found for query It's Always Sunny in Philadelphia
+2018-10-24 11:21:56,506 — legacy.api — INFO — Looking for season information.
+2018-10-24 11:21:57,316 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 11:35:59,106 — legacy.api — INFO — ID tt0493405 found for query Chips
+2018-10-24 11:35:59,106 — legacy.api — INFO — Looking for season information.
+2018-10-24 11:36:24,228 — legacy.api — INFO — ID tt0066026 found for query MASH
+2018-10-24 11:36:24,228 — legacy.api — INFO — Looking for season information.
+2018-10-24 11:36:36,562 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 11:36:36,562 — legacy.api — INFO — Looking for season information.
+2018-10-24 11:36:39,703 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 11:37:22,489 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 11:37:22,489 — legacy.api — INFO — Looking for season information.
+2018-10-24 11:37:23,111 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 11:38:31,537 — legacy.api — INFO — ID tt2467372 found for query Brooklyn Nine-Nine
+2018-10-24 11:38:31,537 — legacy.api — INFO — Looking for season information.
+2018-10-24 11:38:32,310 — legacy.api — INFO — Collecting episode data (this make take a while).

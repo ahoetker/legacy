@@ -39,8 +39,6 @@ def show_id_from_search(query: str, api_key: str = API_KEY) -> str:
     return show_id
 
 
-
-
 def get_seasons(show_id: str, api_key: str = API_KEY) -> List[str]:
     """
     Get a list of all the seasons for a TV show. This is necessary
