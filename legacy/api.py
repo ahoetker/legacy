@@ -25,18 +25,21 @@ def get_api_key(path: PosixPath) -> str:
     return api_key.strip()
 
 
-def get_show_id(query: str, api_key: str = API_KEY) -> str:
+def omdb_search(query: str, api_key: str = API_KEY):
     """
     Returns the IMDb unique ID for a TV show, using the OMDb API.
     """
     url = "http://www.omdbapi.com/"
     payload = {"apikey": api_key, "t": query}
-    show_id = get(url, payload).json().get("imdbID")
+    response = get(url, payload)
+    show_title = response.json().get("Title")
+    show_id = response.json().get("imdbID")
     if show_id is None:
         logger.warning("No ID found for query {}".format(query))
     else:
         logger.info("ID {} found for query {}".format(show_id, query))
-    return show_id
+    info = {"show_title": show_title, "show_id": show_id}
+    return info
 
 
 def get_seasons(show_id: str, api_key: str = API_KEY) -> List[str]:

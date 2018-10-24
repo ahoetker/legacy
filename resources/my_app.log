@@ -346,3 +346,98 @@
 2018-10-24 15:25:58,158 — legacy.api — INFO — Collecting data for Season 6
 2018-10-24 15:25:59,642 — legacy.api — INFO — Success : Season 6
 2018-10-24 15:25:59,682 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:30:13,232 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:32:39,428 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:33:27,293 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:33:33,794 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:33:56,151 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:35:48,926 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:36:34,536 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:48:33,381 — legacy.api — INFO — ID tt2467372 found for query Brooklyn Nine-Nine
+2018-10-24 15:48:33,381 — legacy.api — INFO — Looking for season information.
+2018-10-24 15:48:34,118 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 15:48:34,118 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 15:48:35,976 — legacy.api — INFO — Success : Season 1
+2018-10-24 15:48:35,976 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 15:48:37,850 — legacy.api — INFO — Success : Season 2
+2018-10-24 15:48:37,851 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 15:48:40,336 — legacy.api — INFO — Success : Season 3
+2018-10-24 15:48:40,336 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 15:48:42,136 — legacy.api — INFO — Success : Season 4
+2018-10-24 15:48:42,137 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 15:48:44,061 — legacy.api — INFO — Success : Season 5
+2018-10-24 15:48:44,061 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 15:48:45,627 — legacy.api — INFO — Success : Season 6
+2018-10-24 15:48:45,674 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:49:03,231 — legacy.api — WARNING — No ID found for query Agents of Shield
+2018-10-24 15:49:03,231 — legacy.api — INFO — Looking for season information.
+2018-10-24 15:49:24,962 — legacy.api — WARNING — No ID found for query Agents of S.H.I.E.L.D
+2018-10-24 15:49:24,963 — legacy.api — INFO — Looking for season information.
+2018-10-24 15:49:35,591 — legacy.api — INFO — ID tt0472954 found for query always sunny
+2018-10-24 15:49:35,591 — legacy.api — INFO — Looking for season information.
+2018-10-24 15:49:36,403 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 15:49:36,403 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 15:49:37,425 — legacy.api — INFO — Success : Season 1
+2018-10-24 15:49:37,425 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 15:49:38,911 — legacy.api — INFO — Success : Season 2
+2018-10-24 15:49:38,911 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 15:49:40,369 — legacy.api — INFO — Success : Season 3
+2018-10-24 15:49:40,369 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 15:49:41,722 — legacy.api — INFO — Success : Season 4
+2018-10-24 15:49:41,723 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 15:49:43,391 — legacy.api — INFO — Success : Season 5
+2018-10-24 15:49:43,392 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 15:49:44,807 — legacy.api — INFO — Success : Season 6
+2018-10-24 15:49:44,807 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 15:49:46,269 — legacy.api — INFO — Success : Season 7
+2018-10-24 15:49:46,269 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 15:49:47,447 — legacy.api — INFO — Success : Season 8
+2018-10-24 15:49:47,447 — legacy.api — INFO — Collecting data for Season 9
+2018-10-24 15:49:48,995 — legacy.api — INFO — Success : Season 9
+2018-10-24 15:49:48,995 — legacy.api — INFO — Collecting data for Season 10
+2018-10-24 15:49:50,206 — legacy.api — INFO — Success : Season 10
+2018-10-24 15:49:50,206 — legacy.api — INFO — Collecting data for Season 11
+2018-10-24 15:49:52,653 — legacy.api — INFO — Success : Season 11
+2018-10-24 15:49:52,653 — legacy.api — INFO — Collecting data for Season 12
+2018-10-24 15:49:53,859 — legacy.api — INFO — Success : Season 12
+2018-10-24 15:49:53,860 — legacy.api — INFO — Collecting data for Season 13
+2018-10-24 15:49:55,017 — legacy.api — INFO — Success : Season 13
+2018-10-24 15:49:55,017 — legacy.api — INFO — Collecting data for Season 14
+2018-10-24 15:49:56,174 — legacy.api — INFO — Success : Season 14
+2018-10-24 15:49:56,218 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:51:10,163 — legacy.api — INFO — ID tt0436992 found for query doctor who
+2018-10-24 15:51:10,163 — legacy.api — INFO — Looking for season information.
+2018-10-24 15:51:11,259 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 15:51:11,259 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 15:51:13,132 — legacy.api — INFO — Success : Season 1
+2018-10-24 15:51:13,132 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 15:51:15,099 — legacy.api — INFO — Success : Season 2
+2018-10-24 15:51:15,099 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 15:51:17,106 — legacy.api — INFO — Success : Season 3
+2018-10-24 15:51:17,106 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 15:51:18,993 — legacy.api — INFO — Success : Season 4
+2018-10-24 15:51:18,993 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 15:51:20,880 — legacy.api — INFO — Success : Season 5
+2018-10-24 15:51:20,880 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 15:51:23,363 — legacy.api — INFO — Success : Season 6
+2018-10-24 15:51:23,363 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 15:51:25,603 — legacy.api — INFO — Success : Season 7
+2018-10-24 15:51:25,603 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 15:51:27,455 — legacy.api — INFO — Success : Season 8
+2018-10-24 15:51:27,455 — legacy.api — INFO — Collecting data for Season 9
+2018-10-24 15:51:31,525 — legacy.api — INFO — Success : Season 9
+2018-10-24 15:51:31,525 — legacy.api — INFO — Collecting data for Season 10
+2018-10-24 15:51:33,787 — legacy.api — INFO — Success : Season 10
+2018-10-24 15:51:33,788 — legacy.api — INFO — Collecting data for Season 11
+2018-10-24 15:51:35,512 — legacy.api — INFO — Success : Season 11
+2018-10-24 15:51:35,565 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 16:08:48,185 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 16:13:19,264 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 16:14:16,865 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 16:17:09,484 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 16:17:21,218 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 16:20:04,183 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 16:20:21,410 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 16:21:56,492 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 16:43:57,591 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 16:45:52,402 — legacy.plots — INFO — Plotting series data (fancy plot)
