@@ -14,3 +14,6 @@
     
 # OMDb API key
 /resources/APIKEY
+
+# Local JSON data (testing)
+/local_data/*
