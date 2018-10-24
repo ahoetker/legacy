@@ -1,0 +1,16 @@
+# byte-compiled files
+*/__pycache__/
+*.pyc
+
+# Setuptools data
+/dist/
+/*.egg-info
+
+# macOS binary records
+.DS_Store
+
+# PyCharm files
+/.idea/
+    
+# OMDb API key
+/resources/APIKEY
