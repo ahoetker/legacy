@@ -32,8 +32,13 @@ def show_id_from_search(query: str, api_key: str = API_KEY) -> str:
     url = "http://www.omdbapi.com/"
     payload = {"apikey": api_key, "t": query}
     show_id = get(url, payload).json().get("imdbID")
-    logger.info("ID {} found for query {}".format(show_id, query))
+    if show_id is None:
+        logger.warning("No ID found for query {}".format(query))
+    else:
+        logger.info("ID {} found for query {}".format(show_id, query))
     return show_id
+
+
 
 
 def get_seasons(show_id: str, api_key: str = API_KEY) -> List[str]:
@@ -41,6 +46,7 @@ def get_seasons(show_id: str, api_key: str = API_KEY) -> List[str]:
     Get a list of all the seasons for a TV show. This is necessary
     in order to scrape episode IDs from IMDb.
     """
+    logger.info("Looking for season information.")
     payload = {"season": 1}
     url = "https://www.imdb.com/title/{0}/episodes".format(show_id)
     response = get(url, params=payload)
@@ -72,6 +78,7 @@ def omdb_get_episodes(show_id: str, seasons: List[str], api_key: str = API_KEY):
     """
     url = "https://www.imdb.com/title/{0}/episodes".format(show_id)
     show_data = []
+    logger.info("Collecting episode data (this make take a while).")
     for season in seasons:
         payload = {"season": season}
         response = get(url, params=payload)

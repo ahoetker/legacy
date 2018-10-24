@@ -1,1 +1,51 @@
 2018-10-24 01:18:01,603 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 01:22:49,994 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 01:22:49,994 — legacy.api — INFO — Looking for season information.
+2018-10-24 01:22:50,766 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 01:23:25,979 — legacy.api — INFO — ID tt0944947 found for query Game of Thrones
+2018-10-24 01:23:25,979 — legacy.api — INFO — Looking for season information.
+2018-10-24 01:23:26,555 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 01:23:38,514 — legacy.data_processing — WARNING — No Ratings for episode: Episode #8.1
+2018-10-24 01:23:38,514 — legacy.data_processing — WARNING — No Ratings for episode: Episode #8.4
+2018-10-24 01:23:38,515 — legacy.data_processing — WARNING — No Ratings for episode: Episode #8.5
+2018-10-24 01:23:38,515 — legacy.data_processing — WARNING — No Ratings for episode: Episode #8.6
+2018-10-24 01:24:50,394 — legacy.api — INFO — ID None found for query Marvel's Agents of Shield
+2018-10-24 01:24:50,395 — legacy.api — INFO — Looking for season information.
+2018-10-24 01:28:28,270 — legacy.api — WARNING — No ID found for query None
+2018-10-24 01:28:58,265 — legacy.api — WARNING — No ID found for query None
+2018-10-24 01:29:06,677 — legacy.api — WARNING — No ID found for query None
+2018-10-24 01:29:27,578 — legacy.api — WARNING — No ID found for query Marvel's Agents of S.H.I.E.L.D
+2018-10-24 01:31:01,708 — legacy.api — INFO — ID tt1981558 found for query Key and Peele
+2018-10-24 01:31:01,708 — legacy.api — INFO — Looking for season information.
+2018-10-24 01:31:03,459 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 01:31:46,254 — legacy.api — WARNING — No ID found for query Star Trek: The Next Generation
+2018-10-24 01:31:55,072 — legacy.api — WARNING — No ID found for query Star Trek: TNG
+2018-10-24 01:32:00,120 — legacy.api — WARNING — No ID found for query Star Trek TNG
+2018-10-24 01:32:05,077 — legacy.api — WARNING — No ID found for query TNG
+2018-10-24 01:32:12,782 — legacy.api — WARNING — No ID found for query Sex in the City
+2018-10-24 01:32:25,697 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 01:32:25,697 — legacy.api — INFO — Looking for season information.
+2018-10-24 01:32:26,911 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 01:34:48,834 — legacy.api — WARNING — No ID found for query QI
+2018-10-24 01:35:02,298 — legacy.api — WARNING — No ID found for query QI: Quite Interesting
+2018-10-24 01:35:14,523 — legacy.api — WARNING — No ID found for query Miami Vice
+2018-10-24 01:35:23,739 — legacy.api — WARNING — No ID found for query MiamiVice
+2018-10-24 01:35:38,590 — legacy.api — WARNING — No ID found for query Storm chasers
+2018-10-24 01:35:49,038 — legacy.api — WARNING — No ID found for query Its always sunny
+2018-10-24 01:36:00,831 — legacy.api — WARNING — No ID found for query Its always sunny in philadelphia
+2018-10-24 01:36:11,802 — legacy.api — WARNING — No ID found for query Daredevil
+2018-10-24 01:36:27,933 — legacy.api — WARNING — No ID found for query MASH
+2018-10-24 01:36:36,065 — legacy.api — WARNING — No ID found for query M.A.S.H
+2018-10-24 01:36:48,373 — legacy.api — WARNING — No ID found for query Doctor Who
+2018-10-24 01:36:56,784 — legacy.api — INFO — ID tt0496424 found for query 30 Rock
+2018-10-24 01:36:56,784 — legacy.api — INFO — Looking for season information.
+2018-10-24 01:36:57,605 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 01:37:49,289 — legacy.api — INFO — ID tt0496424 found for query 30 Rock
+2018-10-24 01:37:49,289 — legacy.api — INFO — Looking for season information.
+2018-10-24 01:37:50,045 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 01:39:25,836 — legacy.api — INFO — ID tt0496424 found for query 30 Rock
+2018-10-24 01:39:25,836 — legacy.api — INFO — Looking for season information.
+2018-10-24 01:39:26,679 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 01:41:17,120 — legacy.api — INFO — ID tt0496424 found for query 30 Rock
+2018-10-24 01:41:17,120 — legacy.api — INFO — Looking for season information.
+2018-10-24 01:41:18,688 — legacy.api — INFO — Collecting episode data (this make take a while).
