@@ -441,3 +441,27 @@
 2018-10-24 16:21:56,492 — legacy.plots — INFO — Plotting series data (fancy plot)
 2018-10-24 16:43:57,591 — legacy.plots — INFO — Plotting series data (fancy plot)
 2018-10-24 16:45:52,402 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 16:48:28,547 — legacy.api — INFO — ID tt1486217 found for query Archer
+2018-10-24 16:48:28,548 — legacy.api — INFO — Looking for season information.
+2018-10-24 16:48:29,486 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 16:48:29,486 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 16:48:31,290 — legacy.api — INFO — Success : Season 1
+2018-10-24 16:48:31,291 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 16:48:33,616 — legacy.api — INFO — Success : Season 2
+2018-10-24 16:48:33,616 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 16:48:35,787 — legacy.api — INFO — Success : Season 3
+2018-10-24 16:48:35,787 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 16:48:38,088 — legacy.api — INFO — Success : Season 4
+2018-10-24 16:48:38,088 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 16:48:40,472 — legacy.api — INFO — Success : Season 5
+2018-10-24 16:48:40,472 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 16:48:43,103 — legacy.api — INFO — Success : Season 6
+2018-10-24 16:48:43,103 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 16:48:45,071 — legacy.api — INFO — Success : Season 7
+2018-10-24 16:48:45,071 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 16:48:46,392 — legacy.api — INFO — Success : Season 8
+2018-10-24 16:48:46,392 — legacy.api — INFO — Collecting data for Season 9
+2018-10-24 16:48:48,046 — legacy.api — INFO — Success : Season 9
+2018-10-24 16:48:48,046 — legacy.api — INFO — Collecting data for Season 10
+2018-10-24 16:48:49,344 — legacy.api — INFO — Success : Season 10
+2018-10-24 16:48:49,384 — legacy.plots — INFO — Plotting series data (fancy plot)
