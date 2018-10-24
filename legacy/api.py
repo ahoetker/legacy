@@ -25,7 +25,7 @@ def get_api_key(path: PosixPath) -> str:
     return api_key.strip()
 
 
-def show_id_from_search(query: str, api_key: str = API_KEY) -> str:
+def get_show_id(query: str, api_key: str = API_KEY) -> str:
     """
     Returns the IMDb unique ID for a TV show, using the OMDb API.
     """
@@ -56,7 +56,7 @@ def get_seasons(show_id: str, api_key: str = API_KEY) -> List[str]:
     return seasons
 
 
-def episode_data_from_id(episode_id: str, api_key: str = API_KEY):
+def get_episode_data(episode_id: str, api_key: str = API_KEY):
     """
     Get JSON data for a TV episode from OMDb, using the episode's
     unique IMDb ID.
@@ -68,7 +68,7 @@ def episode_data_from_id(episode_id: str, api_key: str = API_KEY):
     return data
 
 
-def omdb_get_episodes(show_id: str, seasons: List[str], api_key: str = API_KEY):
+def get_series_omdb(show_id: str, seasons: List[str], api_key: str = API_KEY):
     """
     This function scrapes IMDb for the episode IDs, then grabs the info for
     each episode using the OMDb API. This is preferred, because IMDb does not
@@ -78,12 +78,14 @@ def omdb_get_episodes(show_id: str, seasons: List[str], api_key: str = API_KEY):
     show_data = []
     logger.info("Collecting episode data (this make take a while).")
     for season in seasons:
+        logger.info("Collecting data for Season {}".format(season))
         payload = {"season": season}
         response = get(url, params=payload)
         html_soup = BeautifulSoup(response.text, "html.parser")
         episode_divs = html_soup.find_all("div", class_="list_item")
         ep_id = lambda div: div.div.a["href"].split(sep="/")[2]
         episode_ids = list(map(ep_id, episode_divs))
-        episode_data = list(map(episode_data_from_id, episode_ids))
+        episode_data = list(map(get_episode_data, episode_ids))
         show_data += episode_data
+        logger.info("Success : Season {}".format(season))
     return show_data

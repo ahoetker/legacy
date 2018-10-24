@@ -7,6 +7,13 @@ RESOURCES = Path(__file__).parent.parent / "resources"
 
 
 def clean_data(dataset):
+    """
+    Primarily, remove entries that have an Error value.
+    Also, remove entries lacking an IMDb Rating. For now,
+    this seems like a good strategy. I will revisit this if
+    there are weird gaps in the plot.
+    """
+    logger.info("Cleaning series data.")
     data = list(filter(lambda e: e.get("Error") is None, dataset))
     data = list(filter(lambda e: e.get("imdbRating") != "N/A", data))
     return data
@@ -19,21 +26,3 @@ def parse_ratings(episode):
     except TypeError as e:
         logger.warning("No Ratings for episode: {}".format(episode["Title"]))
         return None
-
-
-def plot_show_ratings(dataset):
-    y = list(map(parse_ratings, dataset))
-    x = [i for i in range(1, len(y) + 1)]
-    # desc = list(map(lambda i: dataset[i].get("Title"), x))
-    output_file(RESOURCES / "plot.html")
-    TOOLTIPS = [("Ranking", "$y")]
-    p = figure(
-        title="Episode Ratings",
-        x_axis_label="Episode",
-        y_axis_label="Ratings",
-        tooltips=TOOLTIPS,
-    )
-    p.circle(x, y, legend="IMDb Rating", size=5, color="navy")
-    p.line(x, y, line_width=2)
-
-    show(p)
