@@ -4,6 +4,9 @@ from contextlib import closing
 from bs4 import BeautifulSoup
 from pathlib import Path, PosixPath
 from typing import List, Dict
+from legacy.root_logger import get_logger
+
+logger = get_logger(__name__)
 
 # Set the OMDb API key for this module
 RESOURCES = Path(__file__).parent.parent / "resources"
@@ -29,6 +32,7 @@ def show_id_from_search(query: str, api_key: str = API_KEY) -> str:
     url = "http://www.omdbapi.com/"
     payload = {"apikey": api_key, "t": query}
     show_id = get(url, payload).json().get("imdbID")
+    logger.info("ID {} found for query {}".format(show_id, query))
     return show_id
 
 
