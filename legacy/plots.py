@@ -1,32 +1,40 @@
 from bokeh.plotting import figure, output_file, show
+from bokeh.models import ColumnDataSource
+from bokeh.models.tools import HoverTool
 from legacy.root_logger import get_logger
-from legacy.data_processing import parse_ratings
+from legacy.data_processing import clean_df
 from pathlib import Path
+import pandas as pd
 
 logger = get_logger(__name__)
 RESOURCES = Path(__file__).parent.parent / "resources"
 
 
-def basic_plot(dataset):
+def fancy_plot(df: pd.core.frame.DataFrame):
     """
-    This plot is just a verification that the program
-    is in good working order.
-
-    TODO: Add useful tooltips
-    TODO: Add scaling options
+    This plot should have all the good stuff!
+    The idea is to lean on Bokeh to pull data out of
+    the series JSON dict.
     """
-    logger.info("Plotting series data (basic plot)")
-    y = list(map(parse_ratings, dataset))
-    x = [i for i in range(1, len(y) + 1)]
-    # desc = list(map(lambda i: dataset[i].get("Title"), x))
-    output_file(RESOURCES / "plot.html")
-    TOOLTIPS = [("Ranking", "$y")]
+    logger.info("Plotting series data (fancy plot)")
+    source = ColumnDataSource(df)
+    output_file("local_data/plot.html")
     p = figure(
-        title="Episode Ratings",
-        x_axis_label="Episode",
-        y_axis_label="Ratings",
-        tooltips=TOOLTIPS,
+        title="Ratings",
+        x_axis_label="Release Date",
+        x_axis_type="datetime",
+        y_axis_label="IMDb Rating",
+        plot_height=600,
+        plot_width=700,
     )
-    p.circle(x, y, legend="IMDb Rating", size=5, color="navy")
-    p.line(x, y, line_width=2)
+    p.circle(x="Released", y="imdbRating", source=source, size=10, color="green")
+
+    hover = HoverTool()
+    hover.tooltips = [
+        ("Title", "@Title"),
+        ("Season", "@Season"),
+        ("Episode", "@Episode"),
+        ("Rating", "@imdbRating"),
+    ]
+    p.add_tools(hover)
     show(p)

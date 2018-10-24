@@ -140,3 +140,209 @@
 2018-10-24 12:07:06,619 — legacy.api — INFO — Success : Season 4
 2018-10-24 12:07:06,619 — legacy.data_processing — INFO — Cleaning series data.
 2018-10-24 12:07:06,620 — legacy.plots — INFO — Plotting series data (basic plot)
+2018-10-24 12:39:36,575 — legacy.data_processing — INFO — Cleaning series data.
+2018-10-24 12:39:36,575 — legacy.plots — INFO — Plotting series data (basic plot)
+2018-10-24 13:03:53,797 — legacy.data_processing — INFO — Cleaning series data.
+2018-10-24 13:04:05,650 — legacy.plots — INFO — Plotting series data (basic plot)
+2018-10-24 13:04:30,130 — legacy.data_processing — INFO — Cleaning series data.
+2018-10-24 13:04:30,130 — legacy.plots — INFO — Plotting series data (basic plot)
+2018-10-24 13:04:46,332 — legacy.data_processing — INFO — Cleaning series data.
+2018-10-24 13:04:46,332 — legacy.plots — INFO — Plotting series data (basic plot)
+2018-10-24 13:05:23,944 — legacy.data_processing — INFO — Cleaning series data.
+2018-10-24 13:05:23,944 — legacy.plots — INFO — Plotting series data (basic plot)
+2018-10-24 13:05:55,320 — legacy.data_processing — INFO — Cleaning series data.
+2018-10-24 13:05:55,320 — legacy.plots — INFO — Plotting series data (basic plot)
+2018-10-24 13:08:03,192 — legacy.data_processing — INFO — Cleaning series data.
+2018-10-24 13:08:03,192 — legacy.plots — INFO — Plotting series data (basic plot)
+2018-10-24 13:08:33,212 — legacy.data_processing — INFO — Cleaning series data.
+2018-10-24 13:08:33,212 — legacy.plots — INFO — Plotting series data (basic plot)
+2018-10-24 13:09:39,543 — legacy.data_processing — INFO — Cleaning series data.
+2018-10-24 13:09:39,543 — legacy.plots — INFO — Plotting series data (basic plot)
+2018-10-24 13:12:46,315 — legacy.data_processing — INFO — Cleaning series data.
+2018-10-24 13:15:15,287 — legacy.data_processing — INFO — Cleaning series data.
+2018-10-24 13:15:15,287 — legacy.plots — INFO — Plotting series data (basic plot)
+2018-10-24 13:15:26,205 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 13:15:26,205 — legacy.api — INFO — Looking for season information.
+2018-10-24 13:15:27,554 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 13:15:27,554 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 13:15:29,774 — legacy.api — INFO — Success : Season 1
+2018-10-24 13:15:29,774 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 13:15:32,080 — legacy.api — INFO — Success : Season 2
+2018-10-24 13:15:32,080 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 13:15:35,110 — legacy.api — INFO — Success : Season 3
+2018-10-24 13:15:35,110 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 13:15:37,605 — legacy.api — INFO — Success : Season 4
+2018-10-24 13:15:37,605 — legacy.data_processing — INFO — Cleaning series data.
+2018-10-24 13:16:28,851 — legacy.api — INFO — Looking for season information.
+2018-10-24 13:16:46,477 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 13:16:46,478 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 13:16:48,405 — legacy.api — INFO — Success : Season 1
+2018-10-24 13:16:48,405 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 13:16:49,912 — legacy.api — INFO — Success : Season 2
+2018-10-24 13:16:49,912 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 13:16:52,079 — legacy.api — INFO — Success : Season 3
+2018-10-24 13:16:52,079 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 13:16:53,890 — legacy.api — INFO — Success : Season 4
+2018-10-24 13:23:37,408 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 13:23:37,408 — legacy.api — INFO — Looking for season information.
+2018-10-24 13:23:38,849 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 13:23:38,849 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 13:23:40,885 — legacy.api — INFO — Success : Season 1
+2018-10-24 13:23:40,885 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 13:23:43,116 — legacy.api — INFO — Success : Season 2
+2018-10-24 13:23:43,116 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 13:23:45,556 — legacy.api — INFO — Success : Season 3
+2018-10-24 13:23:45,557 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 13:23:47,919 — legacy.api — INFO — Success : Season 4
+2018-10-24 13:24:41,808 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 13:24:41,808 — legacy.api — INFO — Looking for season information.
+2018-10-24 13:24:43,339 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 13:24:43,339 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 13:24:45,357 — legacy.api — INFO — Success : Season 1
+2018-10-24 13:24:45,358 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 13:24:47,023 — legacy.api — INFO — Success : Season 2
+2018-10-24 13:24:47,024 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 13:24:49,033 — legacy.api — INFO — Success : Season 3
+2018-10-24 13:24:49,033 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 13:24:50,838 — legacy.api — INFO — Success : Season 4
+2018-10-24 13:35:35,753 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 13:35:35,753 — legacy.api — INFO — Looking for season information.
+2018-10-24 13:35:38,402 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 13:35:38,402 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 13:35:40,312 — legacy.api — INFO — Success : Season 1
+2018-10-24 13:35:40,312 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 13:35:42,344 — legacy.api — INFO — Success : Season 2
+2018-10-24 13:35:42,345 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 13:35:45,153 — legacy.api — INFO — Success : Season 3
+2018-10-24 13:35:45,154 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 13:35:47,531 — legacy.api — INFO — Success : Season 4
+2018-10-24 13:38:02,992 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 13:38:02,992 — legacy.api — INFO — Looking for season information.
+2018-10-24 13:38:03,730 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 13:38:03,730 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 13:38:05,716 — legacy.api — INFO — Success : Season 1
+2018-10-24 13:38:05,716 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 13:38:07,380 — legacy.api — INFO — Success : Season 2
+2018-10-24 13:38:07,380 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 13:38:09,368 — legacy.api — INFO — Success : Season 3
+2018-10-24 13:38:09,368 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 13:38:12,090 — legacy.api — INFO — Success : Season 4
+2018-10-24 13:39:06,081 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 13:39:06,081 — legacy.api — INFO — Looking for season information.
+2018-10-24 13:39:06,898 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 13:39:06,898 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 13:39:08,806 — legacy.api — INFO — Success : Season 1
+2018-10-24 13:39:08,806 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 13:39:10,421 — legacy.api — INFO — Success : Season 2
+2018-10-24 13:39:10,422 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 13:39:12,473 — legacy.api — INFO — Success : Season 3
+2018-10-24 13:39:12,474 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 13:39:14,205 — legacy.api — INFO — Success : Season 4
+2018-10-24 14:36:26,631 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 14:36:34,499 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 14:37:54,765 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 14:38:46,040 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 14:41:18,376 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 14:46:30,306 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 14:46:40,142 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 14:47:37,507 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 14:47:48,761 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 14:53:14,362 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 14:53:57,550 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 14:56:44,022 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 14:56:58,265 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:00:38,678 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:01:57,063 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:03:57,762 — legacy.api — INFO — ID tt3398228 found for query Bojack Horseman
+2018-10-24 15:03:57,762 — legacy.api — INFO — Looking for season information.
+2018-10-24 15:03:58,451 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 15:03:58,451 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 15:04:00,301 — legacy.api — INFO — Success : Season 1
+2018-10-24 15:04:00,301 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 15:04:02,226 — legacy.api — INFO — Success : Season 2
+2018-10-24 15:04:02,226 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 15:04:04,387 — legacy.api — INFO — Success : Season 3
+2018-10-24 15:04:04,387 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 15:04:06,806 — legacy.api — INFO — Success : Season 4
+2018-10-24 15:04:06,806 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 15:04:08,913 — legacy.api — INFO — Success : Season 5
+2018-10-24 15:05:10,070 — legacy.api — INFO — ID tt3398228 found for query Bojack Horseman
+2018-10-24 15:05:10,071 — legacy.api — INFO — Looking for season information.
+2018-10-24 15:05:10,719 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 15:05:10,719 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 15:05:11,935 — legacy.api — INFO — Success : Season 1
+2018-10-24 15:05:11,935 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 15:05:13,271 — legacy.api — INFO — Success : Season 2
+2018-10-24 15:05:13,271 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 15:05:14,425 — legacy.api — INFO — Success : Season 3
+2018-10-24 15:05:14,425 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 15:05:15,687 — legacy.api — INFO — Success : Season 4
+2018-10-24 15:05:15,687 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 15:05:16,968 — legacy.api — INFO — Success : Season 5
+2018-10-24 15:05:42,181 — legacy.api — INFO — ID tt0472954 found for query Always Sunny
+2018-10-24 15:05:42,181 — legacy.api — INFO — Looking for season information.
+2018-10-24 15:05:42,734 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 15:05:42,734 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 15:05:43,921 — legacy.api — INFO — Success : Season 1
+2018-10-24 15:05:43,921 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 15:05:45,386 — legacy.api — INFO — Success : Season 2
+2018-10-24 15:05:45,386 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 15:05:47,008 — legacy.api — INFO — Success : Season 3
+2018-10-24 15:05:47,008 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 15:05:48,741 — legacy.api — INFO — Success : Season 4
+2018-10-24 15:05:48,741 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 15:05:49,918 — legacy.api — INFO — Success : Season 5
+2018-10-24 15:05:49,918 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 15:05:51,739 — legacy.api — INFO — Success : Season 6
+2018-10-24 15:05:51,739 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 15:05:53,059 — legacy.api — INFO — Success : Season 7
+2018-10-24 15:05:53,059 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 15:05:54,716 — legacy.api — INFO — Success : Season 8
+2018-10-24 15:05:54,716 — legacy.api — INFO — Collecting data for Season 9
+2018-10-24 15:05:56,208 — legacy.api — INFO — Success : Season 9
+2018-10-24 15:05:56,208 — legacy.api — INFO — Collecting data for Season 10
+2018-10-24 15:05:57,276 — legacy.api — INFO — Success : Season 10
+2018-10-24 15:05:57,276 — legacy.api — INFO — Collecting data for Season 11
+2018-10-24 15:05:58,671 — legacy.api — INFO — Success : Season 11
+2018-10-24 15:05:58,671 — legacy.api — INFO — Collecting data for Season 12
+2018-10-24 15:06:00,252 — legacy.api — INFO — Success : Season 12
+2018-10-24 15:06:00,252 — legacy.api — INFO — Collecting data for Season 13
+2018-10-24 15:06:01,539 — legacy.api — INFO — Success : Season 13
+2018-10-24 15:06:01,540 — legacy.api — INFO — Collecting data for Season 14
+2018-10-24 15:06:02,582 — legacy.api — INFO — Success : Season 14
+2018-10-24 15:06:02,649 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:12:54,993 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:13:15,432 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:22:51,563 — legacy.api — INFO — ID tt2467372 found for query Brooklyn Nine-Nine
+2018-10-24 15:23:06,662 — legacy.api — INFO — ID tt2467372 found for query Brooklyn Nine-Nine
+2018-10-24 15:23:06,662 — legacy.api — INFO — Looking for season information.
+2018-10-24 15:23:07,955 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 15:23:07,955 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 15:23:09,914 — legacy.api — INFO — Success : Season 1
+2018-10-24 15:23:09,915 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 15:23:11,821 — legacy.api — INFO — Success : Season 2
+2018-10-24 15:23:11,821 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 15:23:14,324 — legacy.api — INFO — Success : Season 3
+2018-10-24 15:23:14,325 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 15:23:16,338 — legacy.api — INFO — Success : Season 4
+2018-10-24 15:23:16,339 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 15:23:18,311 — legacy.api — INFO — Success : Season 5
+2018-10-24 15:23:18,311 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 15:23:20,013 — legacy.api — INFO — Success : Season 6
+2018-10-24 15:23:20,050 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 15:25:47,203 — legacy.api — INFO — ID tt2467372 found for query Brooklyn Nine-Nine
+2018-10-24 15:25:47,203 — legacy.api — INFO — Looking for season information.
+2018-10-24 15:25:47,909 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 15:25:47,909 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 15:25:49,757 — legacy.api — INFO — Success : Season 1
+2018-10-24 15:25:49,757 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 15:25:51,681 — legacy.api — INFO — Success : Season 2
+2018-10-24 15:25:51,681 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 15:25:53,615 — legacy.api — INFO — Success : Season 3
+2018-10-24 15:25:53,615 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 15:25:56,203 — legacy.api — INFO — Success : Season 4
+2018-10-24 15:25:56,203 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 15:25:58,157 — legacy.api — INFO — Success : Season 5
+2018-10-24 15:25:58,158 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 15:25:59,642 — legacy.api — INFO — Success : Season 6
+2018-10-24 15:25:59,682 — legacy.plots — INFO — Plotting series data (fancy plot)
