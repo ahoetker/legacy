@@ -62,6 +62,18 @@ def get_seasons(show_id: str, api_key: str = API_KEY) -> List[str]:
     return seasons
 
 
+def get_episode_ids(show_id: str, seasons: List[str]) -> List[str]:
+    url = "http://www.omdbapi.com/"
+    episode_ids = []
+    for season in seasons:
+        payload = {"apikey": API_KEY, "i": show_id, "season": season}
+        response = get(url, params=payload)
+        data = response.json()
+        for episode in data.get("Episodes"):
+            episode_ids.append(episode.get("imdbID"))
+    return episode_ids
+
+
 def get_episode_data(episode_id: str, api_key: str = API_KEY):
     """
     Get JSON data for a TV episode from OMDb, using the episode's
@@ -75,99 +87,18 @@ def get_episode_data(episode_id: str, api_key: str = API_KEY):
     return data
 
 
-def get_episode_ids(show_id: str, seasons: List[str]) -> List[str]:
+async def get_series_data(show_id: str, seasons: List[str]) -> List[Dict]:
     """
-    This function is not currently used. It is faster to use
-    util.async_get_series_data, which calls get_season_data
-    asynchronously. The HTTP request to scrape episode IDs
-    from IMDb is the rate limiting step, so it is parallelized.
+    Call get_episode_data asynchronously
+    return list of data Dicts for each episode
     """
-    url = "http://www.omdbapi.com/"
-    episode_ids = []
-    for season in seasons:
-        payload = {"apikey": API_KEY, "season": season}
-        response = get(url, params=payload)
-        for episode in response.json().get("Episodes"):
-            episode_ids += episode.get("imdbID")
-    return episode_ids
-
-
-def get_season_data(show_id: str, season: str) -> List[Dict]:
-    logger.info("Collecting data for Season {}".format(season))
-    url = "https://www.imdb.com/title/{0}/episodes".format(show_id)
-    payload = {"season": season}
-    response = get(url, params=payload)
-    html_soup = BeautifulSoup(response.text, "html.parser")
-    episode_divs = html_soup.find_all("div", class_="list_item")
-    ep_id = lambda div: div.div.a["href"].split(sep="/")[2]
-    url = "http://omdbapi.com/"
-    payload = {""}
-    episode_ids = list(map(ep_id, episode_divs))
-    season_data = list(map(get_episode_data, episode_ids))
-    logger.info("Success : Season {}".format(season))
-    return season_data
-
-
-def get_series_data(show_id: str, seasons: List[str]) -> List[Dict]:
-    logger.info("Collecting data for Season {}".format(season))
     episode_ids = get_episode_ids(show_id, seasons)
-    season_data = list(map(get_episode_data, episode_ids))
-    logger.info("Success : Season {}".format(season))
-    return season_data
-
-
-def get_series_omdb(show_id: str, seasons: List[str], api_key: str = API_KEY):
-    """
-    This function scrapes IMDb for the episode IDs, then grabs the info for
-    each episode using the OMDb API. This is preferred, because IMDb does not
-    want people scraping their site.
-
-    NOTE: You should probably use util.async_get_series_data, which does not
-    need this function. This function exists for serial requests.
-    """
-    url = "https://www.imdb.com/title/{0}/episodes".format(show_id)
-    show_data = []
-    logger.info("Collecting episode data (this make take a while).")
-    for season in seasons:
-        logger.info("Collecting data for Season {}".format(season))
-        payload = {"season": season}
-        response = get(url, params=payload)
-        html_soup = BeautifulSoup(response.text, "html.parser")
-        episode_divs = html_soup.find_all("div", class_="list_item")
-        ep_id = lambda div: div.div.a["href"].split(sep="/")[2]
-        episode_ids = list(map(ep_id, episode_divs))
-        season_data = list(map(get_episode_data, episode_ids))
-        show_data += season_data
-        logger.info("Success : Season {}".format(season))
-    return show_data
-
-
-async def async_get_season_data(show_id: str, season: str) -> List[Dict]:
-    """
-    Much less worth it than the async one level up.
-    Use util.async_get_series_data, it uses get_season_data, it's
-    basically the same.
-    """
-    logger.info("Collecting data for Season {}".format(season))
-    url = "https://www.imdb.com/title/{0}/episodes".format(show_id)
-    payload = {"season": season}
-    response = get(url, params=payload)
-    html_soup = BeautifulSoup(response.text, "html.parser")
-    episode_divs = html_soup.find_all("div", class_="list_item")
-    ep_id = lambda div: div.div.a["href"].split(sep="/")[2]
-    episode_ids = list(map(ep_id, episode_divs))
-    # season_data = list(map(get_episode_data, episode_ids))
-    loop = asyncio.get_event_loop()
     season_data = []
+    loop = asyncio.get_event_loop()
     futures = [
-        loop.run_in_executor(
-            None,
-            get_episode_data,
-            episode_id,
-        )
+        loop.run_in_executor(None, get_episode_data, episode_id)
         for episode_id in episode_ids
     ]
     for response in await asyncio.gather(*futures):
-        season_data += response
-    logger.info("Success : Season {}".format(season))
+        season_data.append(response)
     return season_data

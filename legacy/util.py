@@ -1,4 +1,9 @@
-from legacy.api import API_KEY, omdb_search, get_seasons, get_series_omdb, get_season_data
+from legacy.api import (
+    API_KEY,
+    omdb_search,
+    get_seasons,
+    get_series_data,
+)
 from legacy.data_processing import create_df, clean_df, convert_datatypes
 import asyncio
 
@@ -13,12 +18,20 @@ def process(raw_data):
     return df
 
 
-def get_series_data(query: str, api_key: str = API_KEY):
+def util_get_series_data(query: str, api_key: str = API_KEY):
+    # show_info = omdb_search(query)
+    # show_title = show_info["show_title"]
+    # show_id = show_info["show_id"]
+    # seasons = get_seasons(show_id)
+    # raw_data = get_series_omdb(show_id, seasons)
+    # series_data = {"show_title": show_title, "raw_data": raw_data}
+    # return series_data
     show_info = omdb_search(query)
     show_title = show_info["show_title"]
     show_id = show_info["show_id"]
     seasons = get_seasons(show_id)
-    raw_data = get_series_omdb(show_id, seasons)
+    loop = asyncio.get_event_loop()
+    raw_data = loop.run_until_complete(get_series_data(show_id, seasons))
     series_data = {"show_title": show_title, "raw_data": raw_data}
     return series_data
 
@@ -31,12 +44,7 @@ async def async_get_series_data(query: str, api_key: str = API_KEY):
     loop = asyncio.get_event_loop()
     raw_data = []
     futures = [
-        loop.run_in_executor(
-            None,
-            get_season_data,
-            show_id,
-            season,
-        )
+        loop.run_in_executor(None, get_series_data, show_id, season)
         for season in seasons
     ]
     for response in await asyncio.gather(*futures):

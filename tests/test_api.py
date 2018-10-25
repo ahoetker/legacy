@@ -12,4 +12,4 @@ def test_omdb_search():
 def test_get_seasons():
     show_id = "tt0491738"
     seasons = get_seasons(show_id)
-    assert seasons == ["1","2","3","4","5","6","7","8"]
+    assert seasons == ["1", "2", "3", "4", "5", "6", "7", "8"]

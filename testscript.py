@@ -1,12 +1,11 @@
-from legacy.util import get_series_data, process, async_get_series_data
+from legacy.util import util_get_series_data, process, async_get_series_data
 from legacy.plots import datetime_plot, seasons_plot
 import json
 import sys
 import asyncio
 
 query = str(sys.argv[1])
-loop = asyncio.get_event_loop()
-series_data = loop.run_until_complete(async_get_series_data(query))
+series_data = util_get_series_data(query)
 show_title = series_data["show_title"]
 raw_data = series_data["raw_data"]
 df = process(raw_data)
