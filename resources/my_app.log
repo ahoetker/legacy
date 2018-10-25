@@ -554,3 +554,89 @@
 2018-10-24 17:49:04,933 — legacy.api — INFO — Collecting data for Season 7
 2018-10-24 17:49:06,904 — legacy.api — INFO — Success : Season 7
 2018-10-24 17:49:06,974 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:54:56,527 — legacy.api — INFO — ID tt0383126 found for query Mythbusters
+2018-10-24 17:54:56,527 — legacy.api — INFO — Looking for season information.
+2018-10-24 17:54:57,276 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 17:54:57,276 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 17:54:58,855 — legacy.api — INFO — Success : Season 1
+2018-10-24 17:54:58,856 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 17:55:00,851 — legacy.api — INFO — Success : Season 2
+2018-10-24 17:55:00,851 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 17:55:03,214 — legacy.api — INFO — Success : Season 3
+2018-10-24 17:55:03,214 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 17:55:05,337 — legacy.api — INFO — Success : Season 4
+2018-10-24 17:55:05,338 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 17:55:07,264 — legacy.api — INFO — Success : Season 5
+2018-10-24 17:55:07,265 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 17:55:10,892 — legacy.api — INFO — Success : Season 6
+2018-10-24 17:55:10,892 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 17:55:13,942 — legacy.api — INFO — Success : Season 7
+2018-10-24 17:55:13,942 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 17:55:15,854 — legacy.api — INFO — Success : Season 8
+2018-10-24 17:55:15,858 — legacy.api — INFO — Collecting data for Season 9
+2018-10-24 17:55:17,549 — legacy.api — INFO — Success : Season 9
+2018-10-24 17:55:17,549 — legacy.api — INFO — Collecting data for Season 10
+2018-10-24 17:55:19,254 — legacy.api — INFO — Success : Season 10
+2018-10-24 17:55:19,254 — legacy.api — INFO — Collecting data for Season 11
+2018-10-24 17:55:20,351 — legacy.api — INFO — Success : Season 11
+2018-10-24 17:55:20,351 — legacy.api — INFO — Collecting data for Season 12
+2018-10-24 17:55:21,709 — legacy.api — INFO — Success : Season 12
+2018-10-24 17:55:21,709 — legacy.api — INFO — Collecting data for Season 13
+2018-10-24 17:55:23,062 — legacy.api — INFO — Success : Season 13
+2018-10-24 17:55:23,062 — legacy.api — INFO — Collecting data for Season 14
+2018-10-24 17:55:24,290 — legacy.api — INFO — Success : Season 14
+2018-10-24 17:55:24,291 — legacy.api — INFO — Collecting data for Season 15
+2018-10-24 17:55:25,430 — legacy.api — INFO — Success : Season 15
+2018-10-24 17:55:25,547 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:58:07,002 — legacy.api — INFO — ID tt0417299 found for query Avatar the last airbender
+2018-10-24 17:58:07,002 — legacy.api — INFO — Looking for season information.
+2018-10-24 17:58:07,750 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 17:58:07,750 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 17:58:10,275 — legacy.api — INFO — Success : Season 1
+2018-10-24 17:58:10,276 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 17:58:13,240 — legacy.api — INFO — Success : Season 2
+2018-10-24 17:58:13,241 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 17:58:16,265 — legacy.api — INFO — Success : Season 3
+2018-10-24 17:58:16,332 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 18:08:57,049 — legacy.api — INFO — ID tt0417299 found for query Avatar the last airbender
+2018-10-24 18:08:57,050 — legacy.api — INFO — Looking for season information.
+2018-10-24 18:08:57,822 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 18:08:57,822 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 18:08:59,547 — legacy.api — INFO — Success : Season 1
+2018-10-24 18:08:59,547 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 18:09:01,227 — legacy.api — INFO — Success : Season 2
+2018-10-24 18:09:01,227 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 18:09:03,135 — legacy.api — INFO — Success : Season 3
+2018-10-24 18:09:03,202 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 18:10:14,798 — legacy.api — INFO — ID tt0417299 found for query Avatar the last airbender
+2018-10-24 18:10:14,799 — legacy.api — INFO — Looking for season information.
+2018-10-24 18:10:15,646 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 18:10:15,654 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 18:10:17,387 — legacy.api — INFO — Success : Season 1
+2018-10-24 18:10:17,388 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 18:10:19,146 — legacy.api — INFO — Success : Season 2
+2018-10-24 18:10:19,146 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 18:10:21,448 — legacy.api — INFO — Success : Season 3
+2018-10-24 18:10:21,513 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 18:16:26,981 — legacy.api — INFO — ID tt1877368 found for query Great British Baking Show
+2018-10-24 18:16:26,982 — legacy.api — INFO — Looking for season information.
+2018-10-24 18:16:27,944 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 18:16:27,944 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 18:16:29,148 — legacy.api — INFO — Success : Season 1
+2018-10-24 18:16:29,148 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 18:16:31,018 — legacy.api — INFO — Success : Season 2
+2018-10-24 18:16:31,018 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 18:16:33,556 — legacy.api — INFO — Success : Season 3
+2018-10-24 18:16:33,557 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 18:16:36,429 — legacy.api — INFO — Success : Season 4
+2018-10-24 18:16:36,429 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 18:16:38,557 — legacy.api — INFO — Success : Season 5
+2018-10-24 18:16:38,557 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 18:16:40,955 — legacy.api — INFO — Success : Season 6
+2018-10-24 18:16:40,955 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 18:16:43,516 — legacy.api — INFO — Success : Season 7
+2018-10-24 18:16:43,516 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 18:16:45,137 — legacy.api — INFO — Success : Season 8
+2018-10-24 18:16:45,137 — legacy.api — INFO — Collecting data for Season 9
+2018-10-24 18:16:46,735 — legacy.api — INFO — Success : Season 9
+2018-10-24 18:16:46,759 — legacy.plots — INFO — Plotting series data (fancy plot)

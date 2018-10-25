@@ -1,5 +1,5 @@
 from bokeh.plotting import figure, output_file, show
-from bokeh.models import ColumnDataSource
+from bokeh.models import ColumnDataSource, OpenURL, TapTool
 from bokeh.models.tools import HoverTool
 from bokeh.palettes import Dark2_5 as palette
 from legacy.root_logger import get_logger
@@ -59,14 +59,15 @@ def seasons_plot(df: pd.core.frame.DataFrame, show_title: str):
     # Source df to Bokeh
     source = ColumnDataSource(df)
 
+    # Assemble figure
     p = figure(
         title="IMDb Ratings for {}".format(show_title),
         x_axis_label="Episode Number",
         y_axis_label="IMDb Rating",
         plot_height=600,
         plot_width=1200,
+        tools="tap",
     )
-
     p.circle(
         x="Sequential",
         y="imdbRating",
@@ -83,7 +84,6 @@ def seasons_plot(df: pd.core.frame.DataFrame, show_title: str):
         alpha=0.75,
         line_width=1,
     )
-
     hover = HoverTool()
     hover.tooltips = [
         ("Title", "@Title"),
@@ -92,4 +92,7 @@ def seasons_plot(df: pd.core.frame.DataFrame, show_title: str):
         ("Rating", "@imdbRating"),
     ]
     p.add_tools(hover)
+    url = "https://imdb.com/title/@imdbID/"
+    taptool = p.select(type=TapTool)
+    taptool.callback = OpenURL(url=url)
     show(p)
