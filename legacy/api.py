@@ -54,14 +54,11 @@ def get_seasons(show_id: str, api_key: str = API_KEY) -> List[str]:
     in order to scrape episode IDs from IMDb.
     """
     logger.info("Looking for season information.")
-    payload = {"season": 1}
-    url = "https://www.imdb.com/title/{0}/episodes".format(show_id)
+    url = "http://omdbapi.com/"
+    payload = {"apikey": API_KEY, "i": show_id, "season": 1}
     response = get(url, params=payload)
-    html_soup = BeautifulSoup(response.text, "html.parser")
-    season_picker = html_soup.find("select", class_="current")
-    season_options = season_picker.find_all("option")
-    options = list(map(lambda x: x.text.strip(), season_options))
-    seasons = list(filter(lambda x: x in [str(i) for i in range(1, 50)], options))
+    num_seasons = int(response.json().get("totalSeasons"))
+    seasons = [str(i) for i in range(1, num_seasons + 1)]
     return seasons
 
 
@@ -85,15 +82,13 @@ def get_episode_ids(show_id: str, seasons: List[str]) -> List[str]:
     asynchronously. The HTTP request to scrape episode IDs
     from IMDb is the rate limiting step, so it is parallelized.
     """
-    url = "https://www.imdb.com/title/{0}/episodes".format(show_id)
+    url = "http://www.omdbapi.com/"
     episode_ids = []
     for season in seasons:
-        payload = {"season": season}
+        payload = {"apikey": API_KEY, "season": season}
         response = get(url, params=payload)
-        html_soup = BeautifulSoup(response.text, "html.parser")
-        episode_divs = html_soup.find_all("div", class_="list_item")
-        ep_id = lambda div: div.div.a["href"].split(sep="/")[2]
-        episode_ids += list(map(ep_id, episode_divs))
+        for episode in response.json().get("Episodes"):
+            episode_ids += episode.get("imdbID")
     return episode_ids
 
 
@@ -105,7 +100,17 @@ def get_season_data(show_id: str, season: str) -> List[Dict]:
     html_soup = BeautifulSoup(response.text, "html.parser")
     episode_divs = html_soup.find_all("div", class_="list_item")
     ep_id = lambda div: div.div.a["href"].split(sep="/")[2]
+    url = "http://omdbapi.com/"
+    payload = {""}
     episode_ids = list(map(ep_id, episode_divs))
+    season_data = list(map(get_episode_data, episode_ids))
+    logger.info("Success : Season {}".format(season))
+    return season_data
+
+
+def get_series_data(show_id: str, seasons: List[str]) -> List[Dict]:
+    logger.info("Collecting data for Season {}".format(season))
+    episode_ids = get_episode_ids(show_id, seasons)
     season_data = list(map(get_episode_data, episode_ids))
     logger.info("Success : Season {}".format(season))
     return season_data
