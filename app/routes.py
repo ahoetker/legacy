@@ -20,9 +20,17 @@ def index():
     if form.validate_on_submit():
         data = form.data.copy()
         query = data.get("query")
-        flash("Query: {}".format(query))
-        return redirect(url_for("index"))
-    return render_template("index.html", title="Home", form=form)
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        series_data = util_get_series_data(query)
+        show_title = series_data["show_title"]
+        raw_data = series_data["raw_data"]
+        df = process(raw_data)
+        html_file = inline_html(df, show_title)
+        with open(html_file, "r") as h:
+            html = h.read()
+        return html
+    return render_template("index.html", title="Legacy", form=form, plot_html=None)
 
 @app.route("/seriessearch", methods=["GET", "POST"])
 def seriessearch():
