@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from pathlib import Path, PosixPath
 from typing import List, Dict
 from legacy.root_logger import get_logger
+import asyncio
 
 logger = get_logger(__name__)
 
@@ -69,11 +70,28 @@ def get_episode_data(episode_id: str, api_key: str = API_KEY):
     return data
 
 
+def get_season_data(show_id: str, season: str) -> List[Dict]:
+    logger.info("Collecting data for Season {}".format(season))
+    url = "https://www.imdb.com/title/{0}/episodes".format(show_id)
+    payload = {"season": season}
+    response = get(url, params=payload)
+    html_soup = BeautifulSoup(response.text, "html.parser")
+    episode_divs = html_soup.find_all("div", class_="list_item")
+    ep_id = lambda div: div.div.a["href"].split(sep="/")[2]
+    episode_ids = list(map(ep_id, episode_divs))
+    season_data = list(map(get_episode_data, episode_ids))
+    logger.info("Success : Season {}".format(season))
+    return season_data
+
+
 def get_series_omdb(show_id: str, seasons: List[str], api_key: str = API_KEY):
     """
     This function scrapes IMDb for the episode IDs, then grabs the info for
     each episode using the OMDb API. This is preferred, because IMDb does not
     want people scraping their site.
+
+    NOTE: You should probably use util.async_get_series_data, which does not
+    need this function. This function exists for serial requests.
     """
     url = "https://www.imdb.com/title/{0}/episodes".format(show_id)
     show_data = []
@@ -86,7 +104,7 @@ def get_series_omdb(show_id: str, seasons: List[str], api_key: str = API_KEY):
         episode_divs = html_soup.find_all("div", class_="list_item")
         ep_id = lambda div: div.div.a["href"].split(sep="/")[2]
         episode_ids = list(map(ep_id, episode_divs))
-        episode_data = list(map(get_episode_data, episode_ids))
-        show_data += episode_data
+        season_data = list(map(get_episode_data, episode_ids))
+        show_data += season_data
         logger.info("Success : Season {}".format(season))
     return show_data

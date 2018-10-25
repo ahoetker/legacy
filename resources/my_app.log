@@ -640,3 +640,503 @@
 2018-10-24 18:16:45,137 — legacy.api — INFO — Collecting data for Season 9
 2018-10-24 18:16:46,735 — legacy.api — INFO — Success : Season 9
 2018-10-24 18:16:46,759 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 18:50:52,056 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 18:50:52,056 — legacy.api — INFO — Looking for season information.
+2018-10-24 18:50:53,199 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 18:50:53,199 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 18:50:54,924 — legacy.api — INFO — Success : Season 1
+2018-10-24 18:50:54,924 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 18:50:56,946 — legacy.api — INFO — Success : Season 2
+2018-10-24 18:50:56,947 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 18:50:58,902 — legacy.api — INFO — Success : Season 3
+2018-10-24 18:50:58,902 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 18:51:00,756 — legacy.api — INFO — Success : Season 4
+2018-10-24 18:51:00,756 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 18:51:03,296 — legacy.api — INFO — Success : Season 5
+2018-10-24 18:51:03,296 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 18:51:04,903 — legacy.api — INFO — Success : Season 6
+2018-10-24 18:51:04,904 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 18:51:06,260 — legacy.api — INFO — Success : Season 7
+2018-10-24 18:51:06,260 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 18:51:07,690 — legacy.api — INFO — Success : Season 8
+2018-10-24 18:51:07,724 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 20:08:40,438 — legacy.api — INFO — ID tt0064116 found for query west
+2018-10-24 20:08:40,439 — legacy.api — INFO — Looking for season information.
+2018-10-24 20:08:43,669 — legacy.api — INFO — ID tt0064116 found for query west
+2018-10-24 20:08:43,669 — legacy.api — INFO — Looking for season information.
+2018-10-24 20:08:55,565 — legacy.api — WARNING — No ID found for query west ing
+2018-10-24 20:08:55,565 — legacy.api — INFO — Looking for season information.
+2018-10-24 20:09:01,710 — legacy.api — INFO — ID tt0200276 found for query west wing
+2018-10-24 20:09:01,710 — legacy.api — INFO — Looking for season information.
+2018-10-24 20:09:02,867 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 20:09:02,867 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 20:09:05,669 — legacy.api — INFO — Success : Season 1
+2018-10-24 20:09:05,670 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 20:09:08,973 — legacy.api — INFO — Success : Season 2
+2018-10-24 20:09:08,973 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 20:09:12,175 — legacy.api — INFO — Success : Season 3
+2018-10-24 20:09:12,175 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 20:09:15,561 — legacy.api — INFO — Success : Season 4
+2018-10-24 20:09:15,562 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 20:09:18,830 — legacy.api — INFO — Success : Season 5
+2018-10-24 20:09:18,830 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 20:09:21,570 — legacy.api — INFO — Success : Season 6
+2018-10-24 20:09:21,570 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 20:09:25,077 — legacy.api — INFO — Success : Season 7
+2018-10-24 20:09:25,130 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 20:10:44,544 — legacy.api — INFO — ID tt2062517 found for query disenchanted
+2018-10-24 20:10:44,545 — legacy.api — INFO — Looking for season information.
+2018-10-24 20:10:50,661 — legacy.api — INFO — ID tt2062517 found for query Disenchanted
+2018-10-24 20:10:50,661 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:15:14,529 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:15:14,529 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:15:48,093 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:15:48,093 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:15:48,835 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:15:50,485 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:15:50,485 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 22:15:52,498 — legacy.api — INFO — Success : Season 2
+2018-10-24 22:15:52,498 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 22:15:54,739 — legacy.api — INFO — Success : Season 3
+2018-10-24 22:15:54,739 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 22:15:56,365 — legacy.api — INFO — Success : Season 4
+2018-10-24 22:15:56,366 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 22:15:58,627 — legacy.api — INFO — Success : Season 5
+2018-10-24 22:15:58,627 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 22:16:00,696 — legacy.api — INFO — Success : Season 6
+2018-10-24 22:16:00,696 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 22:16:02,647 — legacy.api — INFO — Success : Season 7
+2018-10-24 22:16:02,647 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 22:16:04,196 — legacy.api — INFO — Success : Season 8
+2018-10-24 22:18:17,695 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:19:01,653 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:19:21,682 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:19:55,886 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:19:58,760 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:20:11,880 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:20:13,411 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:21:02,344 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:21:03,827 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:21:03,828 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 22:21:05,875 — legacy.api — INFO — Success : Season 2
+2018-10-24 22:21:05,875 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 22:21:07,859 — legacy.api — INFO — Success : Season 3
+2018-10-24 22:21:07,859 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 22:21:09,949 — legacy.api — INFO — Success : Season 4
+2018-10-24 22:21:09,950 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 22:21:12,297 — legacy.api — INFO — Success : Season 5
+2018-10-24 22:21:12,297 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 22:21:14,674 — legacy.api — INFO — Success : Season 6
+2018-10-24 22:21:14,674 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 22:21:16,605 — legacy.api — INFO — Success : Season 7
+2018-10-24 22:21:16,606 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 22:21:18,114 — legacy.api — INFO — Success : Season 8
+2018-10-24 22:27:27,820 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:27:29,661 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:27:29,661 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 22:27:31,616 — legacy.api — INFO — Success : Season 2
+2018-10-24 22:27:31,616 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 22:27:33,675 — legacy.api — INFO — Success : Season 3
+2018-10-24 22:27:33,676 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 22:27:35,735 — legacy.api — INFO — Success : Season 4
+2018-10-24 22:27:35,736 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 22:27:37,512 — legacy.api — INFO — Success : Season 5
+2018-10-24 22:27:37,512 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 22:27:39,081 — legacy.api — INFO — Success : Season 6
+2018-10-24 22:27:39,081 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 22:27:41,106 — legacy.api — INFO — Success : Season 7
+2018-10-24 22:27:41,107 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 22:27:42,381 — legacy.api — INFO — Success : Season 8
+2018-10-24 22:29:05,361 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:29:05,361 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:29:06,041 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:29:07,414 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:29:07,414 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 22:29:08,991 — legacy.api — INFO — Success : Season 2
+2018-10-24 22:29:08,991 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 22:29:10,568 — legacy.api — INFO — Success : Season 3
+2018-10-24 22:29:10,568 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 22:29:12,116 — legacy.api — INFO — Success : Season 4
+2018-10-24 22:29:12,116 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 22:29:13,710 — legacy.api — INFO — Success : Season 5
+2018-10-24 22:29:13,711 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 22:29:15,216 — legacy.api — INFO — Success : Season 6
+2018-10-24 22:29:15,216 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 22:29:16,832 — legacy.api — INFO — Success : Season 7
+2018-10-24 22:29:16,832 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 22:29:18,087 — legacy.api — INFO — Success : Season 8
+2018-10-24 22:29:37,662 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:29:37,662 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:29:38,355 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 22:29:38,355 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:29:39,803 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:29:39,803 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 22:29:41,344 — legacy.api — INFO — Success : Season 2
+2018-10-24 22:29:41,344 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 22:29:44,056 — legacy.api — INFO — Success : Season 3
+2018-10-24 22:29:44,057 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 22:29:45,543 — legacy.api — INFO — Success : Season 4
+2018-10-24 22:29:45,544 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 22:29:47,111 — legacy.api — INFO — Success : Season 5
+2018-10-24 22:29:47,111 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 22:29:48,682 — legacy.api — INFO — Success : Season 6
+2018-10-24 22:29:48,682 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 22:29:50,168 — legacy.api — INFO — Success : Season 7
+2018-10-24 22:29:50,168 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 22:29:51,311 — legacy.api — INFO — Success : Season 8
+2018-10-24 22:29:51,353 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 22:32:29,405 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:32:29,406 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:32:31,802 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 22:32:31,802 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:32:33,275 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:32:33,276 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 22:32:35,339 — legacy.api — INFO — Success : Season 2
+2018-10-24 22:32:35,339 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 22:32:37,363 — legacy.api — INFO — Success : Season 3
+2018-10-24 22:32:37,364 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 22:32:39,290 — legacy.api — INFO — Success : Season 4
+2018-10-24 22:32:39,290 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 22:32:41,287 — legacy.api — INFO — Success : Season 5
+2018-10-24 22:32:41,287 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 22:32:43,334 — legacy.api — INFO — Success : Season 6
+2018-10-24 22:32:43,334 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 22:32:45,313 — legacy.api — INFO — Success : Season 7
+2018-10-24 22:32:45,313 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 22:32:46,848 — legacy.api — INFO — Success : Season 8
+2018-10-24 22:32:46,900 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:32:46,900 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:32:47,655 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:32:48,961 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:32:48,961 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 22:32:50,472 — legacy.api — INFO — Success : Season 2
+2018-10-24 22:32:50,472 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 22:32:52,020 — legacy.api — INFO — Success : Season 3
+2018-10-24 22:32:52,021 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 22:32:53,516 — legacy.api — INFO — Success : Season 4
+2018-10-24 22:32:53,517 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 22:32:54,962 — legacy.api — INFO — Success : Season 5
+2018-10-24 22:32:54,963 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 22:32:56,520 — legacy.api — INFO — Success : Season 6
+2018-10-24 22:32:56,520 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 22:32:57,999 — legacy.api — INFO — Success : Season 7
+2018-10-24 22:32:57,999 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 22:32:59,189 — legacy.api — INFO — Success : Season 8
+2018-10-24 22:33:35,763 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:33:35,763 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:33:36,439 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 22:33:36,439 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:33:38,016 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:33:38,016 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 22:33:39,532 — legacy.api — INFO — Success : Season 2
+2018-10-24 22:33:39,532 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 22:33:41,284 — legacy.api — INFO — Success : Season 3
+2018-10-24 22:33:41,284 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 22:33:43,920 — legacy.api — INFO — Success : Season 4
+2018-10-24 22:33:43,921 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 22:33:45,552 — legacy.api — INFO — Success : Season 5
+2018-10-24 22:33:45,553 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 22:33:47,129 — legacy.api — INFO — Success : Season 6
+2018-10-24 22:33:47,130 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 22:33:48,721 — legacy.api — INFO — Success : Season 7
+2018-10-24 22:33:48,722 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 22:33:49,963 — legacy.api — INFO — Success : Season 8
+2018-10-24 22:34:08,689 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:34:08,690 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:34:09,395 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:34:10,872 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:34:10,872 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 22:34:12,475 — legacy.api — INFO — Success : Season 2
+2018-10-24 22:34:12,476 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 22:34:14,096 — legacy.api — INFO — Success : Season 3
+2018-10-24 22:34:14,097 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 22:34:15,660 — legacy.api — INFO — Success : Season 4
+2018-10-24 22:34:15,661 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 22:34:17,228 — legacy.api — INFO — Success : Season 5
+2018-10-24 22:34:17,228 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 22:34:18,843 — legacy.api — INFO — Success : Season 6
+2018-10-24 22:34:18,844 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 22:34:20,348 — legacy.api — INFO — Success : Season 7
+2018-10-24 22:34:20,348 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 22:34:21,574 — legacy.api — INFO — Success : Season 8
+2018-10-24 22:39:48,707 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:39:48,708 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:39:49,886 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 22:39:49,886 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:39:51,379 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:39:51,379 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 22:39:53,268 — legacy.api — INFO — Success : Season 2
+2018-10-24 22:39:53,268 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 22:39:55,230 — legacy.api — INFO — Success : Season 3
+2018-10-24 22:39:55,230 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 22:39:57,167 — legacy.api — INFO — Success : Season 4
+2018-10-24 22:39:57,167 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 22:39:58,686 — legacy.api — INFO — Success : Season 5
+2018-10-24 22:39:58,686 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 22:40:00,812 — legacy.api — INFO — Success : Season 6
+2018-10-24 22:40:00,813 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 22:40:02,792 — legacy.api — INFO — Success : Season 7
+2018-10-24 22:40:02,792 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 22:40:03,959 — legacy.api — INFO — Success : Season 8
+2018-10-24 22:40:04,014 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:40:04,014 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:40:04,698 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:40:06,229 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:40:06,230 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 22:40:07,704 — legacy.api — INFO — Success : Season 2
+2018-10-24 22:40:07,704 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 22:40:09,195 — legacy.api — INFO — Success : Season 3
+2018-10-24 22:40:09,196 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 22:40:10,649 — legacy.api — INFO — Success : Season 4
+2018-10-24 22:40:10,649 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 22:40:12,446 — legacy.api — INFO — Success : Season 5
+2018-10-24 22:40:12,447 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 22:40:13,979 — legacy.api — INFO — Success : Season 6
+2018-10-24 22:40:13,980 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 22:40:15,380 — legacy.api — INFO — Success : Season 7
+2018-10-24 22:40:15,381 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 22:40:16,503 — legacy.api — INFO — Success : Season 8
+2018-10-24 22:40:39,596 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:40:39,596 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:40:40,242 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 22:40:41,624 — legacy.api — INFO — Success : Season 1
+2018-10-24 22:40:41,625 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 22:40:43,085 — legacy.api — INFO — Success : Season 2
+2018-10-24 22:40:43,085 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 22:40:44,646 — legacy.api — INFO — Success : Season 3
+2018-10-24 22:40:44,647 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 22:40:46,223 — legacy.api — INFO — Success : Season 4
+2018-10-24 22:40:46,224 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 22:40:47,714 — legacy.api — INFO — Success : Season 5
+2018-10-24 22:40:47,715 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 22:40:49,284 — legacy.api — INFO — Success : Season 6
+2018-10-24 22:40:49,284 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 22:40:50,699 — legacy.api — INFO — Success : Season 7
+2018-10-24 22:40:50,700 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 22:40:51,889 — legacy.api — INFO — Success : Season 8
+2018-10-24 22:40:51,938 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 22:46:07,047 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:46:07,047 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:47:41,077 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:47:41,077 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:47:41,872 — legacy.api — WARNING — No ID found for query tt0491738
+2018-10-24 22:47:41,872 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:48:01,730 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 22:48:01,731 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:48:02,512 — legacy.api — WARNING — No ID found for query tt0491738
+2018-10-24 22:48:02,512 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:48:20,189 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 22:48:20,189 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:48:22,731 — legacy.api — WARNING — No ID found for query tt0805669
+2018-10-24 22:48:22,731 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:49:54,767 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 22:49:54,767 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:49:55,581 — legacy.api — WARNING — No ID found for query tt0805669
+2018-10-24 22:49:55,581 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:51:02,214 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 22:51:02,214 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:51:03,022 — legacy.api — WARNING — No ID found for query tt0805669
+2018-10-24 22:51:03,022 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:52:01,002 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 22:52:01,002 — legacy.api — INFO — Looking for season information.
+2018-10-24 22:52:01,819 — legacy.api — WARNING — No ID found for query tt0805669
+2018-10-24 22:52:01,819 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:02:42,620 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 23:02:42,620 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:03:06,461 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 23:03:06,461 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:03:07,235 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:03:07,236 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:03:07,236 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:03:07,237 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:03:09,508 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:03:10,036 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:03:10,176 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:03:10,414 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:05:11,499 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 23:05:11,499 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:05:12,249 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 23:05:12,249 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:05:14,215 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:05:14,215 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:05:15,772 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:05:15,772 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:05:17,746 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:05:17,746 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:05:19,564 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:05:19,609 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 23:05:19,609 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:05:20,354 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:05:20,355 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:05:20,355 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:05:20,355 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:05:22,791 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:05:22,869 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:05:23,026 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:05:23,094 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:05:53,900 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 23:05:53,901 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:05:54,657 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 23:05:54,657 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:05:56,825 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:05:56,825 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:05:58,565 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:05:58,565 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:06:00,688 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:06:00,689 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:06:02,615 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:08:23,223 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 23:08:23,224 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:08:25,078 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:08:25,079 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:08:25,079 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:08:25,079 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:08:27,386 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:08:27,494 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:08:27,555 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:08:27,655 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:10:30,861 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 23:10:30,862 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:10:31,552 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 23:10:31,552 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:10:33,555 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:10:33,555 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:10:35,185 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:10:35,185 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:10:37,158 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:10:37,159 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:10:38,863 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:10:38,908 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 23:10:38,909 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:10:39,651 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:10:39,652 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:10:39,652 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:10:39,653 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:10:41,705 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:10:42,003 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:10:42,019 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:10:42,038 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:11:08,051 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 23:11:08,051 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:11:08,798 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 23:11:08,798 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:11:10,694 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:11:10,694 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:11:12,337 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:11:12,337 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:11:14,444 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:11:14,445 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:11:16,225 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:11:16,274 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 23:11:16,275 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:11:17,082 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:11:17,083 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:11:17,084 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:11:17,084 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:11:19,260 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:11:19,334 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:11:19,500 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:11:19,540 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:12:02,232 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 23:12:02,232 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:12:03,054 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 23:12:03,054 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:12:05,033 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:12:05,033 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:12:06,686 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:12:06,686 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:12:08,761 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:12:08,762 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:12:10,581 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:12:10,636 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 23:12:10,637 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:12:11,410 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:12:11,411 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:12:11,411 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:12:11,411 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:12:13,490 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:12:13,747 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:12:13,825 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:12:13,832 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:12:37,893 — legacy.api — INFO — ID tt0805669 found for query Ugly Betty
+2018-10-24 23:12:37,893 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:12:38,680 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:12:38,681 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:12:38,681 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:12:38,681 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:12:40,527 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:12:40,974 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:12:41,009 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:12:41,023 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:12:41,077 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 23:12:51,173 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 23:12:51,173 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:12:51,891 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:12:51,891 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:12:51,892 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:12:51,892 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:12:51,895 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 23:12:51,896 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 23:12:51,896 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 23:12:51,896 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 23:12:53,965 — legacy.api — INFO — Success : Season 5
+2018-10-24 23:12:53,966 — legacy.api — INFO — Success : Season 8
+2018-10-24 23:12:54,065 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:12:54,263 — legacy.api — INFO — Success : Season 7
+2018-10-24 23:12:54,514 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:12:54,572 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:12:54,616 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:12:54,624 — legacy.api — INFO — Success : Season 6
+2018-10-24 23:12:54,651 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 23:13:01,801 — legacy.api — INFO — ID tt0383126 found for query Mythbusters
+2018-10-24 23:13:01,802 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:13:04,936 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:13:04,937 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:13:04,938 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:13:04,939 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:13:04,940 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 23:13:04,941 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 23:13:04,942 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 23:13:04,943 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 23:13:04,944 — legacy.api — INFO — Collecting data for Season 9
+2018-10-24 23:13:04,945 — legacy.api — INFO — Collecting data for Season 10
+2018-10-24 23:13:04,946 — legacy.api — INFO — Collecting data for Season 11
+2018-10-24 23:13:04,946 — legacy.api — INFO — Collecting data for Season 12
+2018-10-24 23:13:04,947 — legacy.api — INFO — Collecting data for Season 13
+2018-10-24 23:13:04,948 — legacy.api — INFO — Collecting data for Season 14
+2018-10-24 23:13:04,950 — legacy.api — INFO — Collecting data for Season 15
+2018-10-24 23:13:07,022 — legacy.api — INFO — Success : Season 15
+2018-10-24 23:13:07,110 — legacy.api — INFO — Success : Season 11
+2018-10-24 23:13:07,842 — legacy.api — INFO — Success : Season 14
+2018-10-24 23:13:07,903 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:13:08,112 — legacy.api — INFO — Success : Season 13
+2018-10-24 23:13:08,276 — legacy.api — INFO — Success : Season 12
+2018-10-24 23:13:08,513 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:13:08,537 — legacy.api — INFO — Success : Season 9
+2018-10-24 23:13:09,211 — legacy.api — INFO — Success : Season 6
+2018-10-24 23:13:09,309 — legacy.api — INFO — Success : Season 10
+2018-10-24 23:13:09,434 — legacy.api — INFO — Success : Season 7
+2018-10-24 23:13:09,462 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:13:09,507 — legacy.api — INFO — Success : Season 5
+2018-10-24 23:13:09,609 — legacy.api — INFO — Success : Season 8
+2018-10-24 23:13:09,975 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:13:10,124 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 23:15:53,231 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-24 23:15:53,231 — legacy.api — INFO — Looking for season information.
+2018-10-24 23:15:54,261 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 23:15:54,262 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 23:15:54,262 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 23:15:54,263 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 23:15:54,264 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 23:15:54,266 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 23:15:54,267 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 23:15:54,267 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 23:15:56,052 — legacy.api — INFO — Success : Season 8
+2018-10-24 23:15:56,505 — legacy.api — INFO — Success : Season 3
+2018-10-24 23:15:56,556 — legacy.api — INFO — Success : Season 7
+2018-10-24 23:15:56,641 — legacy.api — INFO — Success : Season 6
+2018-10-24 23:15:56,659 — legacy.api — INFO — Success : Season 4
+2018-10-24 23:15:56,694 — legacy.api — INFO — Success : Season 2
+2018-10-24 23:15:56,730 — legacy.api — INFO — Success : Season 1
+2018-10-24 23:15:56,751 — legacy.api — INFO — Success : Season 5
+2018-10-24 23:15:56,791 — legacy.plots — INFO — Plotting series data (fancy plot)
