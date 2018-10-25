@@ -9,10 +9,10 @@ import os
 logger = get_logger(__name__)
 
 # Set the OMDb API key for this module
-if os.environ["OMDB_API_KEY"] is not None:
-    API_KEY = os.environ["OMDB_API_KEY"]
-elif os.environ["OMDB_API_KEY_FILE"] is not None:
-    with Path(os.environ["OMDB_API_KEY_FILE"]).open() as f:
+if os.environ.get("OMDB_API_KEY") is not None:
+    API_KEY = os.environ.get("OMDB_API_KEY")
+elif os.environ.get("OMDB_API_KEY_FILE") is not None:
+    with Path(os.environ.get("OMDB_API_KEY_FILE")).open() as f:
         API_KEY = f.read().strip()
 else:
     RESOURCES = Path(__file__).parent.parent / "resources"
