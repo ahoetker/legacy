@@ -67,7 +67,27 @@ def get_episode_data(episode_id: str, api_key: str = API_KEY):
     payload = {"apikey": api_key, "i": episode_id}
     response = get(url, params=payload)
     data = response.json()
+    logger.info("Requesting data for episode {}".format(episode_id))
     return data
+
+
+def get_episode_ids(show_id: str, seasons: List[str]) -> List[str]:
+    """
+    This function is not currently used. It is faster to use
+    util.async_get_series_data, which calls get_season_data
+    asynchronously. The HTTP request to scrape episode IDs
+    from IMDb is the rate limiting step, so it is parallelized.
+    """
+    url = "https://www.imdb.com/title/{0}/episodes".format(show_id)
+    episode_ids = []
+    for season in seasons:
+        payload = {"season": season}
+        response = get(url, params=payload)
+        html_soup = BeautifulSoup(response.text, "html.parser")
+        episode_divs = html_soup.find_all("div", class_="list_item")
+        ep_id = lambda div: div.div.a["href"].split(sep="/")[2]
+        episode_ids += list(map(ep_id, episode_divs))
+    return episode_ids
 
 
 def get_season_data(show_id: str, season: str) -> List[Dict]:
@@ -108,3 +128,34 @@ def get_series_omdb(show_id: str, seasons: List[str], api_key: str = API_KEY):
         show_data += season_data
         logger.info("Success : Season {}".format(season))
     return show_data
+
+
+async def async_get_season_data(show_id: str, season: str) -> List[Dict]:
+    """
+    Much less worth it than the async one level up.
+    Use util.async_get_series_data, it uses get_season_data, it's
+    basically the same.
+    """
+    logger.info("Collecting data for Season {}".format(season))
+    url = "https://www.imdb.com/title/{0}/episodes".format(show_id)
+    payload = {"season": season}
+    response = get(url, params=payload)
+    html_soup = BeautifulSoup(response.text, "html.parser")
+    episode_divs = html_soup.find_all("div", class_="list_item")
+    ep_id = lambda div: div.div.a["href"].split(sep="/")[2]
+    episode_ids = list(map(ep_id, episode_divs))
+    # season_data = list(map(get_episode_data, episode_ids))
+    loop = asyncio.get_event_loop()
+    season_data = []
+    futures = [
+        loop.run_in_executor(
+            None,
+            get_episode_data,
+            episode_id,
+        )
+        for episode_id in episode_ids
+    ]
+    for response in await asyncio.gather(*futures):
+        season_data += response
+    logger.info("Success : Season {}".format(season))
+    return season_data

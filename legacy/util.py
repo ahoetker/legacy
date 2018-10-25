@@ -43,4 +43,3 @@ async def async_get_series_data(query: str, api_key: str = API_KEY):
         raw_data += response
     series_data = {"show_title": show_title, "raw_data": raw_data}
     return series_data
-
