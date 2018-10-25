@@ -465,3 +465,92 @@
 2018-10-24 16:48:48,046 — legacy.api — INFO — Collecting data for Season 10
 2018-10-24 16:48:49,344 — legacy.api — INFO — Success : Season 10
 2018-10-24 16:48:49,384 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:07:18,930 — legacy.api — INFO — ID tt1486217 found for query Archer
+2018-10-24 17:07:18,930 — legacy.api — INFO — Looking for season information.
+2018-10-24 17:07:20,487 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 17:07:20,488 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 17:07:21,736 — legacy.api — INFO — Success : Season 1
+2018-10-24 17:07:21,736 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 17:07:23,600 — legacy.api — INFO — Success : Season 2
+2018-10-24 17:07:23,601 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 17:07:25,379 — legacy.api — INFO — Success : Season 3
+2018-10-24 17:07:25,379 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 17:07:27,277 — legacy.api — INFO — Success : Season 4
+2018-10-24 17:07:27,277 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 17:07:29,472 — legacy.api — INFO — Success : Season 5
+2018-10-24 17:07:29,473 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 17:07:31,158 — legacy.api — INFO — Success : Season 6
+2018-10-24 17:07:31,158 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 17:07:32,411 — legacy.api — INFO — Success : Season 7
+2018-10-24 17:07:32,412 — legacy.api — INFO — Collecting data for Season 8
+2018-10-24 17:07:33,798 — legacy.api — INFO — Success : Season 8
+2018-10-24 17:07:33,798 — legacy.api — INFO — Collecting data for Season 9
+2018-10-24 17:07:34,859 — legacy.api — INFO — Success : Season 9
+2018-10-24 17:07:34,859 — legacy.api — INFO — Collecting data for Season 10
+2018-10-24 17:07:36,109 — legacy.api — INFO — Success : Season 10
+2018-10-24 17:07:36,152 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:09:20,288 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:11:37,784 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:12:47,534 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:13:07,943 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:13:13,104 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:13:53,915 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:15:30,461 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:16:09,352 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:17:06,903 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:18:19,850 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:21:50,712 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:22:23,877 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:22:38,950 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:23:20,832 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:23:49,290 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:23:59,096 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:27:57,984 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:28:23,451 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:28:52,870 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:29:08,638 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:29:35,433 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:32:33,254 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:32:52,143 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:33:11,113 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:33:46,621 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:36:52,438 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:40:22,722 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:42:19,187 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:43:49,502 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:44:01,354 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:45:04,349 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:45:53,609 — legacy.api — INFO — ID tt1739212 found for query Pokemon
+2018-10-24 17:45:53,609 — legacy.api — INFO — Looking for season information.
+2018-10-24 17:46:13,744 — legacy.api — INFO — ID tt0367279 found for query Arrested Development
+2018-10-24 17:46:13,744 — legacy.api — INFO — Looking for season information.
+2018-10-24 17:46:15,066 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 17:46:15,066 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 17:46:17,898 — legacy.api — INFO — Success : Season 1
+2018-10-24 17:46:17,899 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 17:46:20,768 — legacy.api — INFO — Success : Season 2
+2018-10-24 17:46:20,769 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 17:46:22,974 — legacy.api — INFO — Success : Season 3
+2018-10-24 17:46:22,975 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 17:46:25,711 — legacy.api — INFO — Success : Season 4
+2018-10-24 17:46:25,712 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 17:46:28,217 — legacy.api — INFO — Success : Season 5
+2018-10-24 17:46:28,260 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-24 17:48:44,670 — legacy.api — INFO — ID tt0496424 found for query 30 Rock
+2018-10-24 17:48:44,670 — legacy.api — INFO — Looking for season information.
+2018-10-24 17:48:45,962 — legacy.api — INFO — Collecting episode data (this make take a while).
+2018-10-24 17:48:45,962 — legacy.api — INFO — Collecting data for Season 1
+2018-10-24 17:48:48,798 — legacy.api — INFO — Success : Season 1
+2018-10-24 17:48:48,799 — legacy.api — INFO — Collecting data for Season 2
+2018-10-24 17:48:51,483 — legacy.api — INFO — Success : Season 2
+2018-10-24 17:48:51,484 — legacy.api — INFO — Collecting data for Season 3
+2018-10-24 17:48:54,903 — legacy.api — INFO — Success : Season 3
+2018-10-24 17:48:54,904 — legacy.api — INFO — Collecting data for Season 4
+2018-10-24 17:48:58,150 — legacy.api — INFO — Success : Season 4
+2018-10-24 17:48:58,151 — legacy.api — INFO — Collecting data for Season 5
+2018-10-24 17:49:01,641 — legacy.api — INFO — Success : Season 5
+2018-10-24 17:49:01,641 — legacy.api — INFO — Collecting data for Season 6
+2018-10-24 17:49:04,933 — legacy.api — INFO — Success : Season 6
+2018-10-24 17:49:04,933 — legacy.api — INFO — Collecting data for Season 7
+2018-10-24 17:49:06,904 — legacy.api — INFO — Success : Season 7
+2018-10-24 17:49:06,974 — legacy.plots — INFO — Plotting series data (fancy plot)
