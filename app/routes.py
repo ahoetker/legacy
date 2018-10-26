@@ -35,12 +35,12 @@ def index():
             except ValueError as e:
                 flash("No valid results found for {}".format(query), "error")
                 return(redirect(url_for("index")))
-            # html_file = outfile_html(df, show_title)
-            # with open(html_file, "r") as h:
-            #     html = h.read()
-            # return html
-            script, div = inline_html(df, show_title)
-            return render_template("index.html", form=form, script=script, div=div)
+            html_file = outfile_html(df, show_title)
+            with open(html_file, "r") as h:
+                html = h.read()
+            return html
+            # script, div = inline_html(df, show_title)
+            # return render_template("index.html", form=form, script=script, div=div)
         else:
             flash("No valid results found for {}.".format(query), "error")
             return redirect(url_for("index"))
