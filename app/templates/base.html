@@ -1,11 +1,5 @@
 {% extends 'bootstrap/base.html' %}
 
-{% block styles %}
-{{super()}}
-<link rel="stylesheet"
-      href="{{url_for('.static', filename='styles/sb-admin.css')}}">
-{% endblock %}
-
 {% block title %}
     {% if title %}{{ title }} - Legacy{% else %}Legacy{% endif %}
 {% endblock %}
@@ -25,7 +19,6 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url_for('index') }}">Home</a></li>
-                    <li><a href="{{ url_for('seriessearch') }}">Search</a></li>
                 </ul>
             </div>
         </div>
