@@ -5,7 +5,7 @@ from logging.handlers import TimedRotatingFileHandler
 
 FORMATTER = logging.Formatter("%(asctime)s — %(name)s — %(levelname)s — %(message)s")
 RESOURCES = Path(__file__).parent.parent / "resources"
-LOG_FILE = RESOURCES / "my_app.log"
+LOG_FILE = RESOURCES / "application.log"
 
 
 def get_console_handler():
