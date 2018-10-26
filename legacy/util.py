@@ -32,7 +32,13 @@ def util_get_series_data(query: str, api_key: str = API_KEY):
     seasons = get_seasons(show_id)
     loop = asyncio.get_event_loop()
     raw_data = loop.run_until_complete(get_series_data(show_id, seasons))
-    series_data = {"show_title": show_title, "raw_data": raw_data}
+    test_case = raw_data[0]
+    requirements = ["Title", "Season", "imdbRating"]
+    for req in requirements:
+        if test_case.get(req) is None:
+            series_data = {"valid": False}
+            return series_data
+    series_data = {"show_title": show_title, "raw_data": raw_data, "valid": True}
     return series_data
 
 

@@ -38,13 +38,17 @@ def omdb_search(query: str, api_key: str = API_KEY):
     url = "http://www.omdbapi.com/"
     payload = {"apikey": api_key, "t": query}
     response = get(url, payload)
-    show_title = response.json().get("Title")
-    show_id = response.json().get("imdbID")
-    if show_id is None:
-        logger.warning("No ID found for query {}".format(query))
-    else:
+    if response.json().get("Response") == "True":
+        show_title = response.json().get("Title")
+        show_id = response.json().get("imdbID")
         logger.info("ID {} found for query {}".format(show_id, query))
-    info = {"show_title": show_title, "show_id": show_id}
+        info = {"show_title": show_title, "show_id": show_id}
+    elif response.json().get("Response") == "False":
+        logger.warning("No ID found for query {}".format(query))
+        info = {}
+    else:
+        logger.warning("OMDb query seems to be broken.")
+        info = {}
     return info
 
 
@@ -57,7 +61,7 @@ def get_seasons(show_id: str, api_key: str = API_KEY) -> List[str]:
     url = "http://omdbapi.com/"
     payload = {"apikey": API_KEY, "i": show_id, "season": 1}
     response = get(url, params=payload)
-    num_seasons = int(response.json().get("totalSeasons"))
+    num_seasons = int(response.json()["totalSeasons"])
     seasons = [str(i) for i in range(1, num_seasons + 1)]
     return seasons
 

@@ -1,5 +1,11 @@
 {% extends 'bootstrap/base.html' %}
 
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('.static', filename='styles/sb-admin.css')}}">
+{% endblock %}
+
 {% block title %}
     {% if title %}{{ title }} - Legacy{% else %}Legacy{% endif %}
 {% endblock %}
@@ -28,10 +34,11 @@
 
 {% block content %}
     <div class="container">
-        {% with messages = get_flashed_messages() %}
+        {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
-            {% for message in messages %}
-            <div class="alert alert-info" role="alert">{{ message }}</div>
+            {% for category, message in messages %}
+            <div class="{{ category }} alert alert-info", role="alert" >{{ message }}</div>
+             <!-- <div class="alert alert-info" role="alert">{{ message }}</div> -->
             {% endfor %}
         {% endif %}
         {% endwith %}

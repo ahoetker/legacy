@@ -1,0 +1,377 @@
+2018-10-25 21:58:00,409 — legacy.api — WARNING — No ID found for query asd
+2018-10-25 21:58:00,409 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:27:44,821 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-25 23:27:44,821 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:27:45,538 — legacy.api — INFO — Requesting data for episode tt0828981
+2018-10-25 23:27:45,541 — legacy.api — INFO — Requesting data for episode tt0830108
+2018-10-25 23:27:45,543 — legacy.api — INFO — Requesting data for episode tt0680222
+2018-10-25 23:27:45,545 — legacy.api — INFO — Requesting data for episode tt0839433
+2018-10-25 23:27:45,547 — legacy.api — INFO — Requesting data for episode tt0828980
+2018-10-25 23:27:45,556 — legacy.api — INFO — Requesting data for episode tt0824605
+2018-10-25 23:27:45,560 — legacy.api — INFO — Requesting data for episode tt0836429
+2018-10-25 23:27:45,562 — legacy.api — INFO — Requesting data for episode tt0824606
+2018-10-25 23:27:45,563 — legacy.api — INFO — Requesting data for episode tt0957124
+2018-10-25 23:27:45,566 — legacy.api — INFO — Requesting data for episode tt0833804
+2018-10-25 23:27:45,588 — legacy.api — INFO — Requesting data for episode tt1049285
+2018-10-25 23:27:45,592 — legacy.api — INFO — Requesting data for episode tt0967060
+2018-10-25 23:27:45,597 — legacy.api — INFO — Requesting data for episode tt1084533
+2018-10-25 23:27:45,605 — legacy.api — INFO — Requesting data for episode tt1088640
+2018-10-25 23:27:45,608 — legacy.api — INFO — Requesting data for episode tt1023767
+2018-10-25 23:27:45,612 — legacy.api — INFO — Requesting data for episode tt1171465
+2018-10-25 23:27:45,615 — legacy.api — INFO — Requesting data for episode tt0858238
+2018-10-25 23:27:45,616 — legacy.api — INFO — Requesting data for episode tt1033338
+2018-10-25 23:27:45,617 — legacy.api — INFO — Requesting data for episode tt0890819
+2018-10-25 23:27:45,617 — legacy.api — INFO — Requesting data for episode tt1093707
+2018-10-25 23:27:45,621 — legacy.api — INFO — Requesting data for episode tt1075613
+2018-10-25 23:27:45,623 — legacy.api — INFO — Requesting data for episode tt1171346
+2018-10-25 23:27:45,627 — legacy.api — INFO — Requesting data for episode tt1094913
+2018-10-25 23:27:45,630 — legacy.api — INFO — Requesting data for episode tt1171467
+2018-10-25 23:27:45,630 — legacy.api — INFO — Requesting data for episode tt1189426
+2018-10-25 23:27:45,634 — legacy.api — INFO — Requesting data for episode tt0957838
+2018-10-25 23:27:45,636 — legacy.api — INFO — Requesting data for episode tt1166956
+2018-10-25 23:27:45,637 — legacy.api — INFO — Requesting data for episode tt1154545
+2018-10-25 23:27:45,641 — legacy.api — INFO — Requesting data for episode tt1189429
+2018-10-25 23:27:45,645 — legacy.api — INFO — Requesting data for episode tt1189416
+2018-10-25 23:27:45,648 — legacy.api — INFO — Requesting data for episode tt1106318
+2018-10-25 23:27:45,651 — legacy.api — INFO — Requesting data for episode tt1189424
+2018-10-25 23:27:45,654 — legacy.api — INFO — Requesting data for episode tt1171464
+2018-10-25 23:27:45,656 — legacy.api — INFO — Requesting data for episode tt1189420
+2018-10-25 23:27:45,664 — legacy.api — INFO — Requesting data for episode tt1189425
+2018-10-25 23:27:45,665 — legacy.api — INFO — Requesting data for episode tt1189428
+2018-10-25 23:27:45,672 — legacy.api — INFO — Requesting data for episode tt1189427
+2018-10-25 23:27:45,672 — legacy.api — INFO — Requesting data for episode tt1189430
+2018-10-25 23:27:45,677 — legacy.api — INFO — Requesting data for episode tt1189421
+2018-10-25 23:27:45,680 — legacy.api — INFO — Requesting data for episode tt1189417
+2018-10-25 23:27:45,682 — legacy.api — INFO — Requesting data for episode tt1457627
+2018-10-25 23:27:45,695 — legacy.api — INFO — Requesting data for episode tt1455948
+2018-10-25 23:27:45,700 — legacy.api — INFO — Requesting data for episode tt1189418
+2018-10-25 23:27:45,704 — legacy.api — INFO — Requesting data for episode tt1189431
+2018-10-25 23:27:45,707 — legacy.api — INFO — Requesting data for episode tt1492122
+2018-10-25 23:27:45,708 — legacy.api — INFO — Requesting data for episode tt1491376
+2018-10-25 23:27:45,711 — legacy.api — INFO — Requesting data for episode tt1189423
+2018-10-25 23:27:45,717 — legacy.api — INFO — Requesting data for episode tt1492123
+2018-10-25 23:27:45,732 — legacy.api — INFO — Requesting data for episode tt1539853
+2018-10-25 23:27:45,735 — legacy.api — INFO — Requesting data for episode tt1189422
+2018-10-25 23:27:45,736 — legacy.api — INFO — Requesting data for episode tt1654407
+2018-10-25 23:27:45,740 — legacy.api — INFO — Requesting data for episode tt1652241
+2018-10-25 23:27:45,740 — legacy.api — INFO — Requesting data for episode tt1451567
+2018-10-25 23:27:45,744 — legacy.api — INFO — Requesting data for episode tt1492124
+2018-10-25 23:27:45,746 — legacy.api — INFO — Requesting data for episode tt1654400
+2018-10-25 23:27:45,748 — legacy.api — INFO — Requesting data for episode tt1654399
+2018-10-25 23:27:45,749 — legacy.api — INFO — Requesting data for episode tt1486056
+2018-10-25 23:27:45,755 — legacy.api — INFO — Requesting data for episode tt1654412
+2018-10-25 23:27:45,759 — legacy.api — INFO — Requesting data for episode tt1539855
+2018-10-25 23:27:45,762 — legacy.api — INFO — Requesting data for episode tt1539852
+2018-10-25 23:27:45,765 — legacy.api — INFO — Requesting data for episode tt1477463
+2018-10-25 23:27:45,767 — legacy.api — INFO — Requesting data for episode tt1491375
+2018-10-25 23:27:45,770 — legacy.api — INFO — Requesting data for episode tt2025155
+2018-10-25 23:27:45,775 — legacy.api — INFO — Requesting data for episode tt1539856
+2018-10-25 23:27:45,782 — legacy.api — INFO — Requesting data for episode tt1654411
+2018-10-25 23:27:45,785 — legacy.api — INFO — Requesting data for episode tt1539438
+2018-10-25 23:27:45,791 — legacy.api — INFO — Requesting data for episode tt1654409
+2018-10-25 23:27:45,791 — legacy.api — INFO — Requesting data for episode tt1963577
+2018-10-25 23:27:45,796 — legacy.api — INFO — Requesting data for episode tt1978995
+2018-10-25 23:27:45,798 — legacy.api — INFO — Requesting data for episode tt1654405
+2018-10-25 23:27:45,801 — legacy.api — INFO — Requesting data for episode tt1539854
+2018-10-25 23:27:45,815 — legacy.api — INFO — Requesting data for episode tt2297632
+2018-10-25 23:27:45,818 — legacy.api — INFO — Requesting data for episode tt1654402
+2018-10-25 23:27:45,821 — legacy.api — INFO — Requesting data for episode tt1654406
+2018-10-25 23:27:45,826 — legacy.api — INFO — Requesting data for episode tt1654410
+2018-10-25 23:27:45,826 — legacy.api — INFO — Requesting data for episode tt1654408
+2018-10-25 23:27:45,830 — legacy.api — INFO — Requesting data for episode tt2098363
+2018-10-25 23:27:45,831 — legacy.api — INFO — Requesting data for episode tt1654403
+2018-10-25 23:27:45,832 — legacy.api — INFO — Requesting data for episode tt1654398
+2018-10-25 23:27:45,836 — legacy.api — INFO — Requesting data for episode tt2149921
+2018-10-25 23:27:45,836 — legacy.api — INFO — Requesting data for episode tt1654401
+2018-10-25 23:27:45,845 — legacy.api — INFO — Requesting data for episode tt2297656
+2018-10-25 23:27:45,848 — legacy.api — INFO — Requesting data for episode tt2058449
+2018-10-25 23:27:45,850 — legacy.api — INFO — Requesting data for episode tt1953073
+2018-10-25 23:27:45,852 — legacy.api — INFO — Requesting data for episode tt1945887
+2018-10-25 23:27:45,855 — legacy.api — INFO — Requesting data for episode tt1654404
+2018-10-25 23:27:45,860 — legacy.api — INFO — Requesting data for episode tt2089322
+2018-10-25 23:27:45,862 — legacy.api — INFO — Requesting data for episode tt2100162
+2018-10-25 23:27:45,864 — legacy.api — INFO — Requesting data for episode tt2114131
+2018-10-25 23:27:45,869 — legacy.api — INFO — Requesting data for episode tt2297690
+2018-10-25 23:27:45,873 — legacy.api — INFO — Requesting data for episode tt2100161
+2018-10-25 23:27:45,891 — legacy.api — INFO — Requesting data for episode tt2047299
+2018-10-25 23:27:45,892 — legacy.api — INFO — Requesting data for episode tt2297662
+2018-10-25 23:27:45,900 — legacy.api — INFO — Requesting data for episode tt2286931
+2018-10-25 23:27:45,901 — legacy.api — INFO — Requesting data for episode tt2297678
+2018-10-25 23:27:45,919 — legacy.api — INFO — Requesting data for episode tt2297652
+2018-10-25 23:27:45,921 — legacy.api — INFO — Requesting data for episode tt3310524
+2018-10-25 23:27:45,924 — legacy.api — INFO — Requesting data for episode tt2092746
+2018-10-25 23:27:45,925 — legacy.api — INFO — Requesting data for episode tt2239834
+2018-10-25 23:27:45,926 — legacy.api — INFO — Requesting data for episode tt2297658
+2018-10-25 23:27:45,934 — legacy.api — INFO — Requesting data for episode tt2297660
+2018-10-25 23:27:45,942 — legacy.api — INFO — Requesting data for episode tt2297682
+2018-10-25 23:27:45,942 — legacy.api — INFO — Requesting data for episode tt2322035
+2018-10-25 23:27:45,943 — legacy.api — INFO — Requesting data for episode tt2297680
+2018-10-25 23:27:45,947 — legacy.api — INFO — Requesting data for episode tt2297684
+2018-10-25 23:27:45,951 — legacy.api — INFO — Requesting data for episode tt2297692
+2018-10-25 23:27:45,958 — legacy.api — INFO — Requesting data for episode tt2297688
+2018-10-25 23:27:45,958 — legacy.api — INFO — Requesting data for episode tt3518202
+2018-10-25 23:27:45,959 — legacy.api — INFO — Requesting data for episode tt2297654
+2018-10-25 23:27:45,963 — legacy.api — INFO — Requesting data for episode tt3030772
+2018-10-25 23:27:45,964 — legacy.api — INFO — Requesting data for episode tt2962654
+2018-10-25 23:27:45,964 — legacy.api — INFO — Requesting data for episode tt3165012
+2018-10-25 23:27:45,965 — legacy.api — INFO — Requesting data for episode tt3108888
+2018-10-25 23:27:45,965 — legacy.api — INFO — Requesting data for episode tt3142346
+2018-10-25 23:27:45,966 — legacy.api — INFO — Requesting data for episode tt3070054
+2018-10-25 23:27:45,968 — legacy.api — INFO — Requesting data for episode tt2962662
+2018-10-25 23:27:45,972 — legacy.api — INFO — Requesting data for episode tt4381292
+2018-10-25 23:27:45,974 — legacy.api — INFO — Requesting data for episode tt2297674
+2018-10-25 23:27:46,018 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-25 23:27:52,734 — legacy.api — WARNING — No ID found for query asld
+2018-10-25 23:28:33,150 — legacy.api — INFO — ID tt0139060 found for query ar
+2018-10-25 23:28:33,151 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:28:56,716 — legacy.api — INFO — ID tt0367279 found for query Arrested Development
+2018-10-25 23:28:56,716 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:28:57,141 — legacy.api — INFO — Requesting data for episode tt0515236
+2018-10-25 23:28:57,142 — legacy.api — INFO — Requesting data for episode tt0515256
+2018-10-25 23:28:57,153 — legacy.api — INFO — Requesting data for episode tt0515212
+2018-10-25 23:28:57,165 — legacy.api — INFO — Requesting data for episode tt0515223
+2018-10-25 23:28:57,179 — legacy.api — INFO — Requesting data for episode tt0515214
+2018-10-25 23:28:57,180 — legacy.api — INFO — Requesting data for episode tt0515257
+2018-10-25 23:28:57,181 — legacy.api — INFO — Requesting data for episode tt0515231
+2018-10-25 23:28:57,197 — legacy.api — INFO — Requesting data for episode tt0515247
+2018-10-25 23:28:57,199 — legacy.api — INFO — Requesting data for episode tt0515221
+2018-10-25 23:28:57,201 — legacy.api — INFO — Requesting data for episode tt0515235
+2018-10-25 23:28:57,202 — legacy.api — INFO — Requesting data for episode tt0515238
+2018-10-25 23:28:57,203 — legacy.api — INFO — Requesting data for episode tt0515222
+2018-10-25 23:28:57,204 — legacy.api — INFO — Requesting data for episode tt0515246
+2018-10-25 23:28:57,211 — legacy.api — INFO — Requesting data for episode tt0515210
+2018-10-25 23:28:57,221 — legacy.api — INFO — Requesting data for episode tt0515244
+2018-10-25 23:28:57,225 — legacy.api — INFO — Requesting data for episode tt0515208
+2018-10-25 23:28:57,232 — legacy.api — INFO — Requesting data for episode tt0515226
+2018-10-25 23:28:57,232 — legacy.api — INFO — Requesting data for episode tt0515258
+2018-10-25 23:28:57,236 — legacy.api — INFO — Requesting data for episode tt0515228
+2018-10-25 23:28:57,244 — legacy.api — INFO — Requesting data for episode tt0515232
+2018-10-25 23:28:57,246 — legacy.api — INFO — Requesting data for episode tt0515211
+2018-10-25 23:28:57,249 — legacy.api — INFO — Requesting data for episode tt0515253
+2018-10-25 23:28:57,252 — legacy.api — INFO — Requesting data for episode tt0515254
+2018-10-25 23:28:57,259 — legacy.api — INFO — Requesting data for episode tt0515243
+2018-10-25 23:28:57,263 — legacy.api — INFO — Requesting data for episode tt0515224
+2018-10-25 23:28:57,263 — legacy.api — INFO — Requesting data for episode tt0515213
+2018-10-25 23:28:57,272 — legacy.api — INFO — Requesting data for episode tt0515207
+2018-10-25 23:28:57,280 — legacy.api — INFO — Requesting data for episode tt0515248
+2018-10-25 23:28:57,293 — legacy.api — INFO — Requesting data for episode tt0515240
+2018-10-25 23:28:57,296 — legacy.api — INFO — Requesting data for episode tt0515220
+2018-10-25 23:28:57,298 — legacy.api — INFO — Requesting data for episode tt0515255
+2018-10-25 23:28:57,302 — legacy.api — INFO — Requesting data for episode tt0515251
+2018-10-25 23:28:57,304 — legacy.api — INFO — Requesting data for episode tt0515209
+2018-10-25 23:28:57,306 — legacy.api — INFO — Requesting data for episode tt0515219
+2018-10-25 23:28:57,313 — legacy.api — INFO — Requesting data for episode tt0515252
+2018-10-25 23:28:57,315 — legacy.api — INFO — Requesting data for episode tt0515239
+2018-10-25 23:28:57,317 — legacy.api — INFO — Requesting data for episode tt0515237
+2018-10-25 23:28:57,323 — legacy.api — INFO — Requesting data for episode tt0515227
+2018-10-25 23:28:57,328 — legacy.api — INFO — Requesting data for episode tt0515216
+2018-10-25 23:28:57,330 — legacy.api — INFO — Requesting data for episode tt0515215
+2018-10-25 23:28:57,332 — legacy.api — INFO — Requesting data for episode tt0515234
+2018-10-25 23:28:57,338 — legacy.api — INFO — Requesting data for episode tt0515250
+2018-10-25 23:28:57,341 — legacy.api — INFO — Requesting data for episode tt0515241
+2018-10-25 23:28:57,345 — legacy.api — INFO — Requesting data for episode tt0515233
+2018-10-25 23:28:57,346 — legacy.api — INFO — Requesting data for episode tt0515245
+2018-10-25 23:28:57,352 — legacy.api — INFO — Requesting data for episode tt0515225
+2018-10-25 23:28:57,355 — legacy.api — INFO — Requesting data for episode tt0515229
+2018-10-25 23:28:57,357 — legacy.api — INFO — Requesting data for episode tt0515242
+2018-10-25 23:28:57,358 — legacy.api — INFO — Requesting data for episode tt2128817
+2018-10-25 23:28:57,360 — legacy.api — INFO — Requesting data for episode tt2128813
+2018-10-25 23:28:57,361 — legacy.api — INFO — Requesting data for episode tt2128818
+2018-10-25 23:28:57,365 — legacy.api — INFO — Requesting data for episode tt0757386
+2018-10-25 23:28:57,366 — legacy.api — INFO — Requesting data for episode tt0515230
+2018-10-25 23:28:57,369 — legacy.api — INFO — Requesting data for episode tt0515218
+2018-10-25 23:28:57,384 — legacy.api — INFO — Requesting data for episode tt2128815
+2018-10-25 23:28:57,389 — legacy.api — INFO — Requesting data for episode tt0515249
+2018-10-25 23:28:57,389 — legacy.api — INFO — Requesting data for episode tt0515217
+2018-10-25 23:28:57,397 — legacy.api — INFO — Requesting data for episode tt2495824
+2018-10-25 23:28:57,399 — legacy.api — INFO — Requesting data for episode tt2128822
+2018-10-25 23:28:57,401 — legacy.api — INFO — Requesting data for episode tt2128814
+2018-10-25 23:28:57,403 — legacy.api — INFO — Requesting data for episode tt2128820
+2018-10-25 23:28:57,406 — legacy.api — INFO — Requesting data for episode tt2604338
+2018-10-25 23:28:57,409 — legacy.api — INFO — Requesting data for episode tt4861466
+2018-10-25 23:28:57,414 — legacy.api — INFO — Requesting data for episode tt2128819
+2018-10-25 23:28:57,415 — legacy.api — INFO — Requesting data for episode tt2604336
+2018-10-25 23:28:57,430 — legacy.api — INFO — Requesting data for episode tt4861452
+2018-10-25 23:28:57,433 — legacy.api — INFO — Requesting data for episode tt2128821
+2018-10-25 23:28:57,433 — legacy.api — INFO — Requesting data for episode tt2128816
+2018-10-25 23:28:57,439 — legacy.api — INFO — Requesting data for episode tt4861472
+2018-10-25 23:28:57,442 — legacy.api — INFO — Requesting data for episode tt2604334
+2018-10-25 23:28:57,444 — legacy.api — INFO — Requesting data for episode tt4589902
+2018-10-25 23:28:57,446 — legacy.api — INFO — Requesting data for episode tt4861458
+2018-10-25 23:28:57,447 — legacy.api — INFO — Requesting data for episode tt4861490
+2018-10-25 23:28:57,461 — legacy.api — INFO — Requesting data for episode tt4589904
+2018-10-25 23:28:57,462 — legacy.api — INFO — Requesting data for episode tt2826310
+2018-10-25 23:28:57,463 — legacy.api — INFO — Requesting data for episode tt4861460
+2018-10-25 23:28:57,481 — legacy.api — INFO — Requesting data for episode tt4861478
+2018-10-25 23:28:57,481 — legacy.api — INFO — Requesting data for episode tt4861484
+2018-10-25 23:28:57,483 — legacy.api — INFO — Requesting data for episode tt4861482
+2018-10-25 23:28:57,484 — legacy.api — INFO — Requesting data for episode tt4861456
+2018-10-25 23:28:57,486 — legacy.api — INFO — Requesting data for episode tt4861494
+2018-10-25 23:28:57,490 — legacy.api — INFO — Requesting data for episode tt4861470
+2018-10-25 23:28:57,490 — legacy.api — INFO — Requesting data for episode tt4861486
+2018-10-25 23:28:57,491 — legacy.api — INFO — Requesting data for episode tt4861498
+2018-10-25 23:28:57,500 — legacy.api — INFO — Requesting data for episode tt4861462
+2018-10-25 23:28:57,529 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-25 23:29:04,182 — legacy.api — WARNING — No ID found for query askhjd
+2018-10-25 23:29:08,857 — legacy.api — WARNING — No ID found for query aklar
+2018-10-25 23:29:59,433 — legacy.api — INFO — ID tt7924798 found for query Fred Armisen
+2018-10-25 23:29:59,433 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:33:36,062 — legacy.api — INFO — ID tt7924798 found for query Fred Armisen
+2018-10-25 23:33:36,062 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:33:57,402 — legacy.api — INFO — ID tt0796366 found for query Star Trek
+2018-10-25 23:33:57,402 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:34:06,820 — legacy.api — INFO — ID tt6074764 found for query Star Trek: The Original Series
+2018-10-25 23:34:06,820 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:34:07,164 — legacy.api — INFO — Requesting data for episode tt6105912
+2018-10-25 23:34:07,169 — legacy.api — INFO — Requesting data for episode tt6105958
+2018-10-25 23:34:56,101 — legacy.api — INFO — ID tt6074764 found for query Star Trek: The Original Series
+2018-10-25 23:34:56,102 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:34:56,319 — legacy.api — INFO — Requesting data for episode tt6105912
+2018-10-25 23:34:56,404 — legacy.api — INFO — Requesting data for episode tt6105958
+2018-10-25 23:39:48,268 — legacy.api — INFO — ID tt6074764 found for query Star Trek: The Original Series
+2018-10-25 23:39:48,268 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:39:48,510 — legacy.api — INFO — Requesting data for episode tt6105912
+2018-10-25 23:39:48,514 — legacy.api — INFO — Requesting data for episode tt6105958
+2018-10-25 23:43:09,303 — legacy.api — INFO — ID tt0796366 found for query Star Trek
+2018-10-25 23:43:09,303 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:43:12,734 — legacy.api — INFO — ID tt6074764 found for query Star Trek: The Original Series
+2018-10-25 23:43:12,735 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:43:12,954 — legacy.api — INFO — Requesting data for episode tt6105912
+2018-10-25 23:43:12,956 — legacy.api — INFO — Requesting data for episode tt6105958
+2018-10-25 23:48:26,450 — legacy.api — INFO — ID tt0796366 found for query Star Trek
+2018-10-25 23:48:26,450 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:48:30,627 — legacy.api — INFO — ID tt6074764 found for query Star Trek: The Original Series
+2018-10-25 23:48:30,627 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:48:30,850 — legacy.api — INFO — Requesting data for episode tt6105912
+2018-10-25 23:48:30,857 — legacy.api — INFO — Requesting data for episode tt6105958
+2018-10-25 23:52:55,981 — legacy.api — INFO — ID tt0491738 found for query Psych
+2018-10-25 23:52:55,981 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:52:56,649 — legacy.api — INFO — Requesting data for episode tt0828981
+2018-10-25 23:52:56,658 — legacy.api — INFO — Requesting data for episode tt0828980
+2018-10-25 23:52:56,658 — legacy.api — INFO — Requesting data for episode tt0830108
+2018-10-25 23:52:56,661 — legacy.api — INFO — Requesting data for episode tt0680222
+2018-10-25 23:52:56,672 — legacy.api — INFO — Requesting data for episode tt0839433
+2018-10-25 23:52:56,673 — legacy.api — INFO — Requesting data for episode tt0824605
+2018-10-25 23:52:56,679 — legacy.api — INFO — Requesting data for episode tt0824606
+2018-10-25 23:52:56,683 — legacy.api — INFO — Requesting data for episode tt0967060
+2018-10-25 23:52:56,684 — legacy.api — INFO — Requesting data for episode tt0833804
+2018-10-25 23:52:56,690 — legacy.api — INFO — Requesting data for episode tt0858238
+2018-10-25 23:52:56,697 — legacy.api — INFO — Requesting data for episode tt0836429
+2018-10-25 23:52:56,705 — legacy.api — INFO — Requesting data for episode tt0957838
+2018-10-25 23:52:56,708 — legacy.api — INFO — Requesting data for episode tt0957124
+2018-10-25 23:52:56,711 — legacy.api — INFO — Requesting data for episode tt1049285
+2018-10-25 23:52:56,711 — legacy.api — INFO — Requesting data for episode tt1023767
+2018-10-25 23:52:56,714 — legacy.api — INFO — Requesting data for episode tt1088640
+2018-10-25 23:52:56,724 — legacy.api — INFO — Requesting data for episode tt1075613
+2018-10-25 23:52:56,731 — legacy.api — INFO — Requesting data for episode tt1171346
+2018-10-25 23:52:56,733 — legacy.api — INFO — Requesting data for episode tt1084533
+2018-10-25 23:52:56,747 — legacy.api — INFO — Requesting data for episode tt0890819
+2018-10-25 23:52:56,750 — legacy.api — INFO — Requesting data for episode tt1166956
+2018-10-25 23:52:56,757 — legacy.api — INFO — Requesting data for episode tt1154545
+2018-10-25 23:52:56,759 — legacy.api — INFO — Requesting data for episode tt1093707
+2018-10-25 23:52:56,761 — legacy.api — INFO — Requesting data for episode tt1033338
+2018-10-25 23:52:56,764 — legacy.api — INFO — Requesting data for episode tt1106318
+2018-10-25 23:52:56,769 — legacy.api — INFO — Requesting data for episode tt1486056
+2018-10-25 23:52:56,773 — legacy.api — INFO — Requesting data for episode tt1189429
+2018-10-25 23:52:56,789 — legacy.api — INFO — Requesting data for episode tt1189427
+2018-10-25 23:52:56,792 — legacy.api — INFO — Requesting data for episode tt1094913
+2018-10-25 23:52:56,793 — legacy.api — INFO — Requesting data for episode tt1171465
+2018-10-25 23:52:56,796 — legacy.api — INFO — Requesting data for episode tt1189424
+2018-10-25 23:52:56,804 — legacy.api — INFO — Requesting data for episode tt1189417
+2018-10-25 23:52:56,808 — legacy.api — INFO — Requesting data for episode tt1492123
+2018-10-25 23:52:56,808 — legacy.api — INFO — Requesting data for episode tt1189418
+2018-10-25 23:52:56,808 — legacy.api — INFO — Requesting data for episode tt1189430
+2018-10-25 23:52:56,810 — legacy.api — INFO — Requesting data for episode tt1189425
+2018-10-25 23:52:56,813 — legacy.api — INFO — Requesting data for episode tt1189420
+2018-10-25 23:52:56,813 — legacy.api — INFO — Requesting data for episode tt1171467
+2018-10-25 23:52:56,814 — legacy.api — INFO — Requesting data for episode tt1189431
+2018-10-25 23:52:56,817 — legacy.api — INFO — Requesting data for episode tt1189416
+2018-10-25 23:52:56,819 — legacy.api — INFO — Requesting data for episode tt1455948
+2018-10-25 23:52:56,822 — legacy.api — INFO — Requesting data for episode tt1171464
+2018-10-25 23:52:56,831 — legacy.api — INFO — Requesting data for episode tt1189426
+2018-10-25 23:52:56,832 — legacy.api — INFO — Requesting data for episode tt1451567
+2018-10-25 23:52:56,834 — legacy.api — INFO — Requesting data for episode tt1189422
+2018-10-25 23:52:56,840 — legacy.api — INFO — Requesting data for episode tt1189428
+2018-10-25 23:52:56,842 — legacy.api — INFO — Requesting data for episode tt1539852
+2018-10-25 23:52:56,847 — legacy.api — INFO — Requesting data for episode tt1539854
+2018-10-25 23:52:56,854 — legacy.api — INFO — Requesting data for episode tt1492122
+2018-10-25 23:52:56,859 — legacy.api — INFO — Requesting data for episode tt1189423
+2018-10-25 23:52:56,862 — legacy.api — INFO — Requesting data for episode tt1652241
+2018-10-25 23:52:56,877 — legacy.api — INFO — Requesting data for episode tt1189421
+2018-10-25 23:52:56,880 — legacy.api — INFO — Requesting data for episode tt1492124
+2018-10-25 23:52:56,883 — legacy.api — INFO — Requesting data for episode tt1457627
+2018-10-25 23:52:56,886 — legacy.api — INFO — Requesting data for episode tt1539853
+2018-10-25 23:52:56,892 — legacy.api — INFO — Requesting data for episode tt1654411
+2018-10-25 23:52:56,892 — legacy.api — INFO — Requesting data for episode tt1654405
+2018-10-25 23:52:56,895 — legacy.api — INFO — Requesting data for episode tt1491375
+2018-10-25 23:52:56,895 — legacy.api — INFO — Requesting data for episode tt1654403
+2018-10-25 23:52:56,898 — legacy.api — INFO — Requesting data for episode tt1477463
+2018-10-25 23:52:56,898 — legacy.api — INFO — Requesting data for episode tt1654409
+2018-10-25 23:52:56,900 — legacy.api — INFO — Requesting data for episode tt1539856
+2018-10-25 23:52:56,904 — legacy.api — INFO — Requesting data for episode tt2149921
+2018-10-25 23:52:56,908 — legacy.api — INFO — Requesting data for episode tt1491376
+2018-10-25 23:52:56,912 — legacy.api — INFO — Requesting data for episode tt1539438
+2018-10-25 23:52:56,916 — legacy.api — INFO — Requesting data for episode tt1654412
+2018-10-25 23:52:56,918 — legacy.api — INFO — Requesting data for episode tt1539855
+2018-10-25 23:52:56,920 — legacy.api — INFO — Requesting data for episode tt1654407
+2018-10-25 23:52:56,924 — legacy.api — INFO — Requesting data for episode tt1978995
+2018-10-25 23:52:56,933 — legacy.api — INFO — Requesting data for episode tt2092746
+2018-10-25 23:52:56,938 — legacy.api — INFO — Requesting data for episode tt1654406
+2018-10-25 23:52:56,938 — legacy.api — INFO — Requesting data for episode tt2089322
+2018-10-25 23:52:56,940 — legacy.api — INFO — Requesting data for episode tt1654400
+2018-10-25 23:52:56,960 — legacy.api — INFO — Requesting data for episode tt1945887
+2018-10-25 23:52:56,962 — legacy.api — INFO — Requesting data for episode tt1654402
+2018-10-25 23:52:56,964 — legacy.api — INFO — Requesting data for episode tt1654401
+2018-10-25 23:52:56,966 — legacy.api — INFO — Requesting data for episode tt1654410
+2018-10-25 23:52:56,972 — legacy.api — INFO — Requesting data for episode tt2297632
+2018-10-25 23:52:56,975 — legacy.api — INFO — Requesting data for episode tt2098363
+2018-10-25 23:52:56,978 — legacy.api — INFO — Requesting data for episode tt2239834
+2018-10-25 23:52:56,982 — legacy.api — INFO — Requesting data for episode tt1963577
+2018-10-25 23:52:56,984 — legacy.api — INFO — Requesting data for episode tt1654399
+2018-10-25 23:52:56,993 — legacy.api — INFO — Requesting data for episode tt1654398
+2018-10-25 23:52:57,002 — legacy.api — INFO — Requesting data for episode tt2297656
+2018-10-25 23:52:57,004 — legacy.api — INFO — Requesting data for episode tt1654408
+2018-10-25 23:52:57,008 — legacy.api — INFO — Requesting data for episode tt2025155
+2018-10-25 23:52:57,009 — legacy.api — INFO — Requesting data for episode tt2114131
+2018-10-25 23:52:57,016 — legacy.api — INFO — Requesting data for episode tt2100162
+2018-10-25 23:52:57,020 — legacy.api — INFO — Requesting data for episode tt2297658
+2018-10-25 23:52:57,021 — legacy.api — INFO — Requesting data for episode tt1654404
+2018-10-25 23:52:57,022 — legacy.api — INFO — Requesting data for episode tt2058449
+2018-10-25 23:52:57,024 — legacy.api — INFO — Requesting data for episode tt1953073
+2018-10-25 23:52:57,027 — legacy.api — INFO — Requesting data for episode tt2297654
+2018-10-25 23:52:57,028 — legacy.api — INFO — Requesting data for episode tt2297680
+2018-10-25 23:52:57,029 — legacy.api — INFO — Requesting data for episode tt2100161
+2018-10-25 23:52:57,031 — legacy.api — INFO — Requesting data for episode tt2322035
+2018-10-25 23:52:57,036 — legacy.api — INFO — Requesting data for episode tt2297678
+2018-10-25 23:52:57,046 — legacy.api — INFO — Requesting data for episode tt2297652
+2018-10-25 23:52:57,050 — legacy.api — INFO — Requesting data for episode tt2297682
+2018-10-25 23:52:57,051 — legacy.api — INFO — Requesting data for episode tt2047299
+2018-10-25 23:52:57,054 — legacy.api — INFO — Requesting data for episode tt3142346
+2018-10-25 23:52:57,057 — legacy.api — INFO — Requesting data for episode tt3108888
+2018-10-25 23:52:57,060 — legacy.api — INFO — Requesting data for episode tt3310524
+2018-10-25 23:52:57,061 — legacy.api — INFO — Requesting data for episode tt3070054
+2018-10-25 23:52:57,062 — legacy.api — INFO — Requesting data for episode tt2297684
+2018-10-25 23:52:57,065 — legacy.api — INFO — Requesting data for episode tt2286931
+2018-10-25 23:52:57,067 — legacy.api — INFO — Requesting data for episode tt2297660
+2018-10-25 23:52:57,072 — legacy.api — INFO — Requesting data for episode tt2297690
+2018-10-25 23:52:57,082 — legacy.api — INFO — Requesting data for episode tt3518202
+2018-10-25 23:52:57,083 — legacy.api — INFO — Requesting data for episode tt2297662
+2018-10-25 23:52:57,085 — legacy.api — INFO — Requesting data for episode tt2297688
+2018-10-25 23:52:57,107 — legacy.api — INFO — Requesting data for episode tt2962662
+2018-10-25 23:52:57,108 — legacy.api — INFO — Requesting data for episode tt2297692
+2018-10-25 23:52:57,113 — legacy.api — INFO — Requesting data for episode tt2962654
+2018-10-25 23:52:57,114 — legacy.api — INFO — Requesting data for episode tt3030772
+2018-10-25 23:52:57,116 — legacy.api — INFO — Requesting data for episode tt2297674
+2018-10-25 23:52:57,116 — legacy.api — INFO — Requesting data for episode tt3165012
+2018-10-25 23:52:57,141 — legacy.api — INFO — Requesting data for episode tt4381292
+2018-10-25 23:52:57,179 — legacy.plots — INFO — Plotting series data (fancy plot)
+2018-10-25 23:53:03,307 — legacy.api — INFO — ID tt0796366 found for query Star Trek
+2018-10-25 23:53:03,307 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:53:07,708 — legacy.api — INFO — ID tt6074764 found for query Star Trek: The Original Series
+2018-10-25 23:53:07,708 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:53:07,922 — legacy.api — INFO — Requesting data for episode tt6105958
+2018-10-25 23:53:07,927 — legacy.api — INFO — Requesting data for episode tt6105912
+2018-10-25 23:54:29,035 — legacy.api — INFO — ID tt6074764 found for query Star Trek: The Original Series
+2018-10-25 23:54:29,036 — legacy.api — INFO — Looking for season information.
+2018-10-25 23:54:29,244 — legacy.api — INFO — Requesting data for episode tt6105912
+2018-10-25 23:54:29,250 — legacy.api — INFO — Requesting data for episode tt6105958
