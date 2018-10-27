@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+    <h1>{{ show_title|safe }}</h1>
+    <p>Want to try another TV series?</p>
+    {% if form %}
+    {{ wtf.quick_form(form) }}
+    <br>
+    {% endif %}
+{% endblock %}
+
+{% block bokehplot %}
+  {% if script %}
+    <div class="container">
+    {{ script|safe }}
+    </div>
+  {% endif %}
+{% endblock %}

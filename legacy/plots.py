@@ -3,13 +3,15 @@ from bokeh.models import ColumnDataSource, OpenURL, TapTool
 from bokeh.models.tools import HoverTool
 from bokeh.palettes import Dark2_5 as palette
 from bokeh.resources import CDN
-from bokeh.embed import file_html, components
+from bokeh.embed import file_html, components, autoload_static
 from legacy.root_logger import get_logger
 from legacy.data_processing import clean_df
 from pathlib import Path
 import pandas as pd
 import itertools
 from pathlib import Path
+import string
+import random
 
 logger = get_logger(__name__)
 RESOURCES = Path(__file__).parent.parent / "resources"
@@ -171,8 +173,9 @@ def inline_html(df: pd.core.frame.DataFrame, show_title: str) -> str:
             title="IMDb Ratings for {}".format(show_title),
             x_axis_label="Episode Number",
             y_axis_label="IMDb Rating",
-            plot_height=600,
-            plot_width=1200,
+            # plot_height=600,
+            # plot_width=1200,
+            sizing_mode='scale_both',
             tools="tap",
         )
         p.circle(
@@ -202,6 +205,9 @@ def inline_html(df: pd.core.frame.DataFrame, show_title: str) -> str:
         url = "https://imdb.com/title/@imdbID/"
         taptool = p.select(type=TapTool)
         taptool.callback = OpenURL(url=url)
-
-        script, div = components(p)
-        return (script, div)
+        rstring = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(8))
+        filename = show_title.replace(" ","") + rstring
+        js, tag = autoload_static(p, CDN, "static/bokehscripts/{}.js".format(filename))
+        with open("app/static/bokehscripts/{}.js".format(filename), "w") as f:
+            f.write(js)
+        return tag
