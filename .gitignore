@@ -21,3 +21,6 @@
 # Logs
 *.log
 */*.log
+
+# Bokeh plot scripts (web artifact)
+/app/bokehscripts/**
