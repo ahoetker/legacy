@@ -7,7 +7,7 @@ from flask import (
 )
 from app import app
 from app.forms import SeriesSearchForm
-from legacy.util import util_get_series_data, process
+from legacy.util import util_get_series_data, process, util_scrape_series_data
 from legacy.plots import inline_html, outfile_html
 import asyncio
 import tempfile
@@ -20,10 +20,15 @@ def index():
     if form.validate_on_submit():
         data = form.data.copy()
         query = data.get("query")
+        search_type = data.get("search_type")
+        print(search_type)
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
         try:
-            series_data = util_get_series_data(query)
+            if search_type == "omdb":
+                series_data = util_get_series_data(query)
+            elif search_type == "alt":
+                series_data = util_scrape_series_data(query)
         except KeyError as e:
             flash("No valid results found for {}.".format(query), "warning")
             return redirect(url_for("index"))
