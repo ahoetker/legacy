@@ -9,27 +9,51 @@ IMDb's toes.
 ### Prerequisites
 Go get an [OMDb API key](http://www.omdbapi.com/apikey.aspx).
 
-At this point, there are two ways to include the API key.
-
-1. Set the environment variable `OMDB_API_KEY` equal to the key.
-2. Save the key in a plaintext file somewhere, and export the path to that
-file as  `OMDB_API_KEY_FILE`.
+Set the environment variable `OMDB_API_KEY` to this key.
 
 ### Installing
 Clone this repository and `cd` to it.
 
 Run `pip install -r requirements.txt`
 
-No binaries or entry points currently exist. To test the functionality, run
-`python testscript.py $query` with the name of a TV show.
+
 ## Running Tests
 Tests use [pytest](https://docs.pytest.org/en/latest/). To run tests,
 `pip install pytest`, then run `pytest`.
 
 
-
 ## Deployment
-A Dockerfile and Docker image are planned "soon".
+The Flask application looks at three environment variables:
+
+* `OMDB_API_KEY` - Your OMDb API key.
+* `ALT_SEARCH` - Whether to include the option of an alternate search. When not
+set to `true`, only the OMDb search will be available.
+* `ALT_SOURCE` - The URL of the alternate movie database you would like to use.  
+
+
+To run directly, run `python webapp.py`, or run using whatever Flask options you
+prefer.
+
+This project has a [Docker image](https://hub.docker.com/r/ahoetker/legacy/).
+A sample Docker Compose configuration is given below.
+
+```yaml
+docker-compose.yml
+------------------
+version: '3'
+services:
+  legacy:
+    image: ahoetker/legacy
+    container_name: legacy
+    restart: always
+    ports:
+      - 5000:5000
+    environment:
+      - OMDB_API_KEY=XXXXXXXX
+      - ALT_SEARCH=true
+      - ALT_SOURCE=https://XXXXXX.com
+```
+
 
 ## Versioning
 Once Deployment is at hand, I will start using SVN for the project.
