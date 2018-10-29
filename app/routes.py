@@ -1,16 +1,16 @@
-from flask import (
-    render_template,
-    redirect,
-    url_for,
-    flash,
-    Markup,
-)
+"""
+Internal
+"""
 from app import app
 from app.forms import SeriesSearchForm
-from legacy.util import util_get_series_data, process, util_scrape_series_data
+from legacy.util import util_get_series_data, util_scrape_series_data, process
 from legacy.plots import inline_html, outfile_html
+
+"""
+External
+"""
+from flask import render_template, redirect, url_for, flash
 import asyncio
-import tempfile
 
 
 @app.route("/", methods=["GET", "POST"])
@@ -20,8 +20,10 @@ def index():
     if form.validate_on_submit():
         data = form.data.copy()
         query = data.get("query")
-        search_type = data.get("search_type")
-        print(search_type)
+        if app.config.get("ALT_SEARCH") is True:
+            search_type = data.get("search_type")
+        else:
+            search_type = "omdb"
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
         try:
@@ -40,14 +42,14 @@ def index():
                 df = process(raw_data)
             except ValueError as e:
                 flash("No valid results found for {}".format(query), "warning")
-                return(redirect(url_for("index")))
+                return redirect(url_for("index"))
             script = inline_html(df, show_title)
             return render_template(
                 "plot.html",
                 title="Plot",
                 show_title=show_title,
                 form=form,
-                script=script
+                script=script,
             )
         else:
             flash("No valid results found for {}.".format(query), "warning")
@@ -76,7 +78,7 @@ def plot():
                 df = process(raw_data)
             except ValueError as e:
                 flash("No valid results found for {}".format(query), "warning")
-                return(redirect(url_for("plot")))
+                return redirect(url_for("plot"))
             script = inline_html(df, show_title)
             return render_template("plot.html", title="Plot", form=form, script=script)
         else:

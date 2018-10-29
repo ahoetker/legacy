@@ -104,110 +104,112 @@ def seasons_plot(df: pd.core.frame.DataFrame, show_title: str):
 
 
 def outfile_html(df: pd.core.frame.DataFrame, show_title: str) -> str:
-        logger.info("Plotting series data (fancy plot)")
-        outfile = Path(__file__).parent.parent / "local_data" / "plot.html"
-        output_file(outfile, mode="inline")
+    logger.info("Plotting series data (fancy plot)")
+    outfile = Path(__file__).parent.parent / "local_data" / "plot.html"
+    output_file(outfile, mode="inline")
 
-        # Each season gets its own color
-        colors = itertools.cycle(palette)
-        colormap = {season: color for season, color in zip(df.Season.unique(), colors)}
-        df["colors"] = [colormap[x] for x in df.Season]
+    # Each season gets its own color
+    colors = itertools.cycle(palette)
+    colormap = {season: color for season, color in zip(df.Season.unique(), colors)}
+    df["colors"] = [colormap[x] for x in df.Season]
 
-        # Source df to Bokeh
-        source = ColumnDataSource(df)
+    # Source df to Bokeh
+    source = ColumnDataSource(df)
 
-        # Assemble figure
-        p = figure(
-            title="IMDb Ratings for {}".format(show_title),
-            x_axis_label="Episode Number",
-            y_axis_label="IMDb Rating",
-            plot_height=600,
-            plot_width=1200,
-            tools="tap",
-        )
-        p.circle(
-            x="Sequential",
-            y="imdbRating",
-            source=source,
-            size=10,
-            color="colors",
-            alpha=0.75,
-        )
-        p.line(
-            x="Sequential",
-            y="imdbRating",
-            source=source,
-            color="black",
-            alpha=0.75,
-            line_width=1,
-        )
-        hover = HoverTool()
-        hover.tooltips = [
-            ("Title", "@Title"),
-            ("Season", "@Season"),
-            ("Episode", "@Episode"),
-            ("Rating", "@imdbRating"),
-        ]
-        p.add_tools(hover)
-        url = "https://imdb.com/title/@imdbID/"
-        taptool = p.select(type=TapTool)
-        taptool.callback = OpenURL(url=url)
+    # Assemble figure
+    p = figure(
+        title="IMDb Ratings for {}".format(show_title),
+        x_axis_label="Episode Number",
+        y_axis_label="IMDb Rating",
+        plot_height=600,
+        plot_width=1200,
+        tools="tap",
+    )
+    p.circle(
+        x="Sequential",
+        y="imdbRating",
+        source=source,
+        size=10,
+        color="colors",
+        alpha=0.75,
+    )
+    p.line(
+        x="Sequential",
+        y="imdbRating",
+        source=source,
+        color="black",
+        alpha=0.75,
+        line_width=1,
+    )
+    hover = HoverTool()
+    hover.tooltips = [
+        ("Title", "@Title"),
+        ("Season", "@Season"),
+        ("Episode", "@Episode"),
+        ("Rating", "@imdbRating"),
+    ]
+    p.add_tools(hover)
+    url = "https://imdb.com/title/@imdbID/"
+    taptool = p.select(type=TapTool)
+    taptool.callback = OpenURL(url=url)
 
-        save(p)
-        return(Path(outfile))
+    save(p)
+    return Path(outfile)
 
 
 def inline_html(df: pd.core.frame.DataFrame, show_title: str) -> str:
-        logger.info("Plotting series data (fancy plot)")
+    logger.info("Plotting series data (fancy plot)")
 
-        # Each season gets its own color
-        colors = itertools.cycle(palette)
-        colormap = {season: color for season, color in zip(df.Season.unique(), colors)}
-        df["colors"] = [colormap[x] for x in df.Season]
+    # Each season gets its own color
+    colors = itertools.cycle(palette)
+    colormap = {season: color for season, color in zip(df.Season.unique(), colors)}
+    df["colors"] = [colormap[x] for x in df.Season]
 
-        # Source df to Bokeh
-        source = ColumnDataSource(df)
+    # Source df to Bokeh
+    source = ColumnDataSource(df)
 
-        # Assemble figure
-        p = figure(
-            title="IMDb Ratings for {}".format(show_title),
-            x_axis_label="Episode Number",
-            y_axis_label="IMDb Rating",
-            # plot_height=600,
-            # plot_width=1200,
-            sizing_mode='scale_both',
-            tools="tap",
-        )
-        p.circle(
-            x="Sequential",
-            y="imdbRating",
-            source=source,
-            size=10,
-            color="colors",
-            alpha=0.75,
-        )
-        p.line(
-            x="Sequential",
-            y="imdbRating",
-            source=source,
-            color="black",
-            alpha=0.75,
-            line_width=1,
-        )
-        hover = HoverTool()
-        hover.tooltips = [
-            ("Title", "@Title"),
-            ("Season", "@Season"),
-            ("Episode", "@Episode"),
-            ("Rating", "@imdbRating"),
-        ]
-        p.add_tools(hover)
-        url = "https://imdb.com/title/@imdbID/"
-        taptool = p.select(type=TapTool)
-        taptool.callback = OpenURL(url=url)
-        rstring = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(8))
-        filename = show_title.replace(" ","") + rstring
-        js, tag = autoload_static(p, CDN, "static/bokehscripts/{}.js".format(filename))
-        with open("app/static/bokehscripts/{}.js".format(filename), "w") as f:
-            f.write(js)
-        return tag
+    # Assemble figure
+    p = figure(
+        title="IMDb Ratings for {}".format(show_title),
+        x_axis_label="Episode Number",
+        y_axis_label="IMDb Rating",
+        # plot_height=600,
+        # plot_width=1200,
+        sizing_mode="scale_both",
+        tools="tap",
+    )
+    p.circle(
+        x="Sequential",
+        y="imdbRating",
+        source=source,
+        size=10,
+        color="colors",
+        alpha=0.75,
+    )
+    p.line(
+        x="Sequential",
+        y="imdbRating",
+        source=source,
+        color="black",
+        alpha=0.75,
+        line_width=1,
+    )
+    hover = HoverTool()
+    hover.tooltips = [
+        ("Title", "@Title"),
+        ("Season", "@Season"),
+        ("Episode", "@Episode"),
+        ("Rating", "@imdbRating"),
+    ]
+    p.add_tools(hover)
+    url = "https://imdb.com/title/@imdbID/"
+    taptool = p.select(type=TapTool)
+    taptool.callback = OpenURL(url=url)
+    rstring = "".join(
+        random.choice(string.ascii_uppercase + string.digits) for _ in range(8)
+    )
+    filename = show_title.replace(" ", "") + rstring
+    js, tag = autoload_static(p, CDN, "static/bokehscripts/{}.js".format(filename))
+    with open("app/static/bokehscripts/{}.js".format(filename), "w") as f:
+        f.write(js)
+    return tag

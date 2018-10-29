@@ -1,34 +1,27 @@
+"""
+Internal
+"""
+from legacy.root_logger import get_logger
+from app import app
+
+"""
+External
+"""
 from requests import get
 from bs4 import BeautifulSoup
-from pathlib import Path, PosixPath
+from pathlib import Path
 from typing import List, Dict
-from legacy.root_logger import get_logger
 import asyncio
-import os
 
 logger = get_logger(__name__)
 
-# Set the OMDb API key for this module
-if os.environ.get("OMDB_API_KEY") is not None:
-    API_KEY = os.environ.get("OMDB_API_KEY")
-elif os.environ.get("OMDB_API_KEY_FILE") is not None:
-    with Path(os.environ.get("OMDB_API_KEY_FILE")).open() as f:
+API_KEY = app.config.get("OMDB_API_KEY")
+if API_KEY is None:
+    resources = Path(__file__).parent.parent / "resources"
+    keyfile = resources / "APIKEY"
+    with keyfile.open() as f:
         API_KEY = f.read().strip()
-else:
-    RESOURCES = Path(__file__).parent.parent / "resources"
-    KEYFILE = RESOURCES / "APIKEY"
-    with KEYFILE.open() as f:
-        API_KEY = f.read().strip()
-
-
-def get_api_key(path: PosixPath) -> str:
-    """
-    Get OMDb API key from plaintext file.
-    """
-    api_key = ""
-    with path.open() as f:
-        api_key = f.read()
-    return api_key.strip()
+assert API_KEY != None, "No OMDb API key provided."
 
 
 def omdb_search(query: str, api_key: str = API_KEY):
