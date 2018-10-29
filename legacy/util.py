@@ -1,5 +1,5 @@
 from legacy.api import API_KEY, omdb_search, get_seasons, get_series_data
-from legacy.scraping import scrape_seasons, scrape_series_data
+from legacy.scraping import scrape_seasons, scrape_series_data, scrape_series_search
 from legacy.data_processing import create_df, clean_df, convert_datatypes
 import asyncio
 
@@ -32,7 +32,7 @@ def util_get_series_data(query: str, api_key: str = API_KEY):
 
 
 def util_scrape_series_data(query: str, api_key: str = API_KEY):
-    show_info = omdb_search(query)
+    show_info = scrape_series_search(query)
     show_title = show_info["show_title"]
     show_id = show_info["show_id"]
     loop = asyncio.get_event_loop()

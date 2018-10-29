@@ -16,6 +16,28 @@ logger = get_logger(__name__)
 SITE_URL = app.config.get("ALT_SOURCE")
 
 
+def scrape_series_search(query: str) -> Dict:
+    url = "{0}/find".format(SITE_URL)
+    payload = {
+        "q": query,
+        "s": "tt",
+        "ttype": "tv",
+    }
+    response = get(url, params=payload)
+    html_soup = BeautifulSoup(response.text, "html.parser")
+    results = html_soup.find_all("td", class_="result_text")
+    show_info = {}
+    if len(results) > 0:
+        top = results[0]
+        show_title = top.a.text
+        show_id = top.a.get("href").split("/")[2]
+        show_info["show_title"] = show_title
+        show_info["show_id"] = show_id
+    else:
+        logger.warning("No results found for query {}.".format(query))
+    return show_info
+
+
 def scrape_season_data(show_id: str, season: str) -> List[Dict]:
     # url = "https://{0}/title/{1}/episodes".format(SITE_URL, show_id)
     url = "{0}/title/{1}/episodes".format(SITE_URL, show_id)
