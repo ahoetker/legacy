@@ -56,7 +56,8 @@ services:
 
 
 ## Versioning
-Once Deployment is at hand, I will start using SVN for the project.
+Development is so early it doesn't make sense to use SVN yet. Fight me. Eventually, I
+will decide a build is worthy of being `0.1.1`.
 
 ## Authors
 Author | Contact | Github

@@ -14,10 +14,8 @@ def process(raw_data):
     return df
 
 
-def util_get_series_data(query: str, api_key: str = API_KEY):
-    show_info = omdb_search(query)
-    show_title = show_info["show_title"]
-    show_id = show_info["show_id"]
+def util_get_series_data(show_id: str, api_key: str = API_KEY):
+
     seasons = get_seasons(show_id)
     loop = asyncio.get_event_loop()
     raw_data = loop.run_until_complete(get_series_data(show_id, seasons))
@@ -27,14 +25,11 @@ def util_get_series_data(query: str, api_key: str = API_KEY):
         if test_case.get(req) is None:
             series_data = {"valid": False}
             return series_data
-    series_data = {"show_title": show_title, "raw_data": raw_data, "valid": True}
+    series_data = {"raw_data": raw_data, "valid": True}
     return series_data
 
 
-def util_scrape_series_data(query: str, api_key: str = API_KEY):
-    show_info = scrape_series_search(query)
-    show_title = show_info["show_title"]
-    show_id = show_info["show_id"]
+def util_scrape_series_data(show_id: str, api_key: str = API_KEY):
     loop = asyncio.get_event_loop()
     raw_data = loop.run_until_complete(scrape_series_data(show_id))
     test_case = raw_data[0]
@@ -43,5 +38,5 @@ def util_scrape_series_data(query: str, api_key: str = API_KEY):
         if test_case.get(req) is None:
             series_data = {"valid": False}
             return series_data
-    series_data = {"show_title": show_title, "raw_data": raw_data, "valid": True}
+    series_data = {"raw_data": raw_data, "valid": True}
     return series_data

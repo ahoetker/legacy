@@ -6,16 +6,20 @@ from legacy.root_logger import get_logger
 """
 External
 """
-from pathlib import Path
 import os
 
-basedir = Path(__file__)
+basedir = os.path.abspath(os.path.dirname(__file__))
 logger = get_logger(__name__)
 
 
 class Config(object):
     # Secret key for csrf
     SECRET_KEY = os.environ.get("SECRET_KEY") or "alsdfjklasdklfj"
+
+    # flask-sqlalchemy configs
+    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL") or \
+        "sqlite:///" + os.path.join(basedir, "app.db")
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # Provide OMDb API key
     OMDB_API_KEY = os.environ.get("OMDB_API_KEY") or None

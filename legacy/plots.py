@@ -211,5 +211,6 @@ def inline_html(df: pd.core.frame.DataFrame, show_title: str) -> str:
     filename = show_title.replace(" ", "") + rstring
     js, tag = autoload_static(p, CDN, "static/bokehscripts/{}.js".format(filename))
     with open("app/static/bokehscripts/{}.js".format(filename), "w") as f:
+        logger.info("Writing JS to {}.js".format(filename))
         f.write(js)
     return tag
