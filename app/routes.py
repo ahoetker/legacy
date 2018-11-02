@@ -34,9 +34,13 @@ def index():
         asyncio.set_event_loop(loop)
 
         if search_type == "omdb":
-            show_info = omdb_search(query)
-            show_title = show_info["show_title"]
-            show_id = show_info["show_id"]
+            try:
+                show_info = omdb_search(query)
+                show_title = show_info["show_title"]
+                show_id = show_info["show_id"]
+            except KeyError:
+                flash("No valid results found for {}".format(query), "warning")
+                return redirect(url_for("index"))
             s = Series.query.filter(Series.imdb_id == show_id).first()
             if s is None:
                 s = Series(title=show_title, imdb_id=show_id, created_omdb=datetime(1,1,1))
@@ -84,6 +88,13 @@ def index():
                 return redirect(url_for("index"))
 
         elif search_type == "alt":
+            try:
+                show_info = scrape_series_search(query)
+                show_title = show_info["show_title"]
+                show_id = show_info["show_id"]
+            except KeyError:
+                flash("No valid results found for {}".format(query), "warning")
+                return redirect(url_for("index"))
             show_info = scrape_series_search(query)
             show_title = show_info["show_title"]
             show_id = show_info["show_id"]
