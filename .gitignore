@@ -24,3 +24,6 @@
 
 # Bokeh plot scripts (web artifact)
 /app/bokehscripts/**
+
+# Database stuff
+*.db
