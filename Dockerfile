@@ -5,10 +5,6 @@ RUN adduser serveruser
 WORKDIR /home/serveruser
 
 COPY requirements.txt /
-COPY app app
-COPY legacy legacy
-COPY tests tests
-COPY config.py setup.py webapp.py wsgi.py docker/boot.sh ./
 
 RUN \
     python3 -m pip --no-cache-dir install pip --upgrade && \
@@ -17,9 +13,14 @@ RUN \
     python3 -m pip --no-cache-dir install -r /requirements.txt && \
     rm -rf /root/.cache
 
+COPY app app
+COPY legacy legacy
+COPY tests tests
+COPY config.py setup.py webapp.py wsgi.py docker/boot.sh docker/wait_for_it.sh ./
+
 RUN mkdir ./resources
 RUN mkdir ./local_data
-RUN chmod +x boot.sh
+RUN chmod +x boot.sh wait_for_it.sh
 RUN chown -R serveruser:serveruser ./
 USER serveruser
 

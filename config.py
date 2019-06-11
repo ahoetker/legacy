@@ -17,9 +17,22 @@ class Config(object):
     SECRET_KEY = os.environ.get("SECRET_KEY") or "alsdfjklasdklfj"
 
     # flask-sqlalchemy configs
-    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL") or \
-        "sqlite:///" + os.path.join(basedir, "app.db")
+    if os.environ.get("MYSQL_HOST"):
+        user = os.environ.get("MYSQL_USER")
+        password = os.environ.get("MYSQL_PW")
+        host = os.environ.get("MYSQL_HOST")
+        database = os.environ.get("MYSQL_DB")
+        port = os.environ.get("MYSQL_PORT")
+        SQLALCHEMY_DATABASE_URI = f"mysql://{user}:{password}@{host}/{database}"
+    else:
+        SQLALCHEMY_DATABASE_URI = f"sqlite:///{os.path.join(basedir, 'app.db')}"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+
+    # # flask-sqlalchemy configs
+    # SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL") or \
+    #     "sqlite:///" + os.path.join(basedir, "app.db")
+    # SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # Provide OMDb API key
     OMDB_API_KEY = os.environ.get("OMDB_API_KEY") or None
