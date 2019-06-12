@@ -1,177 +1,99 @@
 """
 Internal
 """
-from app import app, db
-from app.models import Series
+from app import app
 from app.forms import SeriesSearchForm
-from legacy.util import util_get_series_data, util_scrape_series_data, process
-from legacy.plots import inline_html, outfile_html
-from legacy.api import omdb_search
-from legacy.scraping import scrape_series_search
+from legacy.util import (
+    util_get_series_data,
+    process,
+    search_for_show,
+    add_show_to_db,
+    get_current_js,
+    download_raw_show_data,
+    cache_js
+)
+from legacy.plots import inline_html
 from legacy.root_logger import get_logger
 
 """
 External
 """
 from flask import render_template, redirect, url_for, flash
-from datetime import datetime, timedelta
 import asyncio
 
 logger = get_logger(__name__)
 
+
 @app.route("/", methods=["GET", "POST"])
 @app.route("/index", methods=["GET", "POST"])
 def index():
+    # Get data from form
     form = SeriesSearchForm(validators=["DataRequired()"])
+
     if form.validate_on_submit():
         data = form.data.copy()
+
+        # new method
+        # Send the search query to one of the scraping/api modules
         query = data.get("query")
         if app.config.get("ALT_SEARCH") is True:
             search_type = data.get("search_type")
         else:
             search_type = "omdb"
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
 
-        if search_type == "omdb":
-            try:
-                show_info = omdb_search(query)
-                show_title = show_info["show_title"]
-                show_id = show_info["show_id"]
-            except KeyError:
-                flash("No valid results found for {}".format(query), "warning")
-                return redirect(url_for("index"))
-            s = Series.query.filter(Series.imdb_id == show_id).first()
-            if s is None:
-                s = Series(title=show_title, imdb_id=show_id, created_omdb=datetime(1,1,1))
-                db.session.add(s)
-            yesterday = datetime.utcnow() - timedelta(1)
-            if s.created_omdb is None:
-                s.created_omdb = datetime(1,1,1)
-            if s.created_omdb > yesterday:
-                script = s.js_omdb
-                logger.info("Using cached JS for {}.".format(show_title))
-                return render_template(
-                    "plot.html",
-                    title="Plot",
-                    show_title=show_title,
-                    form=form,
-                    script=script,
-                )
-            elif s.created_omdb < yesterday:
-                try:
-                    series_data = util_get_series_data(show_id)
-                    series_data["show_title"] = show_title
-                except KeyError as e:
-                    flash("No valid results found for {}".format(query), "warning")
-                    return redirect(url_for("index"))
-            if series_data.get("valid") is True:
-                raw_data = series_data["raw_data"]
-                try:
-                    df = process(raw_data)
-                except ValueError as e:
-                    flash("No valid results found for {}".format(query), "warning")
-                    return redirect(url_for("index"))
-                script = inline_html(df, show_title)
-                s.js_omdb = script
-                s.created_omdb = datetime.utcnow()
-                db.session.commit()
-                return render_template(
-                    "plot.html",
-                    title="Plot",
-                    show_title=show_title,
-                    form=form,
-                    script=script,
-                )
-            else:
-                flash("No valid results found for {}.".format(query), "warning")
-                return redirect(url_for("index"))
-
-        elif search_type == "alt":
-            try:
-                show_info = scrape_series_search(query)
-                show_title = show_info["show_title"]
-                show_id = show_info["show_id"]
-            except KeyError:
-                flash("No valid results found for {}".format(query), "warning")
-                return redirect(url_for("index"))
-            show_info = scrape_series_search(query)
-            show_title = show_info["show_title"]
-            show_id = show_info["show_id"]
-            s = Series.query.filter(Series.imdb_id == show_id).first()
-            if s is None:
-                s = Series(title=show_title, imdb_id=show_id, created_imdb=datetime(1,1,1))
-                db.session.add(s)
-            yesterday = datetime.utcnow() - timedelta(1)
-            if s.created_imdb is None:
-                s.created_imdb = datetime(1,1,1)
-            if s.created_imdb > yesterday:
-                script = s.js_imdb
-                logger.info("Using cached JS for {}.".format(show_title))
-                return render_template(
-                    "plot.html",
-                    title="Plot",
-                    show_title=show_title,
-                    form=form,
-                    script=script,
-                )
-            elif s.created_imdb < yesterday:
-                try:
-                    series_data = util_scrape_series_data(show_id)
-                    series_data["show_title"] = show_title
-                except KeyError as e:
-                    flash("No valid results found for {}".format(query), "warning")
-                    return redirect(url_for("index"))
-            if series_data.get("valid") is True:
-                raw_data = series_data["raw_data"]
-                try:
-                    df = process(raw_data)
-                except ValueError as e:
-                    flash("No valid results found for {}".format(query), "warning")
-                    return redirect(url_for("index"))
-                script = inline_html(df, show_title)
-                s.js_imdb = script
-                s.created_imdb = datetime.utcnow()
-                db.session.commit()
-                return render_template(
-                    "plot.html",
-                    title="Plot",
-                    show_title=show_title,
-                    form=form,
-                    script=script,
-                )
-            else:
-                flash("No valid results found for {}.".format(query), "warning")
-                return redirect(url_for("index"))
-
-    return render_template("index.html", title="Legacy", form=form)
-
-
-@app.route("/plot", methods=["GET", "POST"])
-def plot():
-    form = SeriesSearchForm(validators=["DataRequired()"])
-    if form.validate_on_submit():
-        data = form.data.copy()
-        query = data.get("query")
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
+        # Get the show ID
         try:
-            series_data = util_get_series_data(query)
-        except KeyError as e:
-            flash("No valid results found for {}.".format(query), "warning")
-            return redirect(url_for("plot"))
-        print(series_data.get("valid"))
-        if series_data.get("valid") is True:
-            show_title = series_data["show_title"]
-            raw_data = series_data["raw_data"]
+            show_info = search_for_show(query, search_type)
+            show_id = show_info["show_id"]
+            show_title = show_info["show_title"]
+        except KeyError:
+            flash("No valid results found for {}")
+            return redirect(url_for("index"))
+
+        # Get the Series object associated with this ID
+        show_entry = add_show_to_db(show_id, show_title)
+
+        # Check for current data given this series and search type
+        current_js = get_current_js(show_entry, search_type)
+
+        # Generate js if not cached
+        # Start by getting the raw data from API/scraping
+        if current_js is None:
+            logger.info("No cached JS for {}, downloading...".format(show_title))
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            try:
+                series_data = download_raw_show_data(show_id, search_type)
+                if series_data.get("valid") is True:
+                    raw_data = series_data["raw_data"]
+                else:
+                    raise KeyError("Data source did not contain required information")
+            except KeyError:
+                flash("No valid results found for {}".format(query), "warning")
+                return redirect(url_for("index"))
+            except AttributeError:
+                flash("No valid results found for {}".format(query), "warning")
+                return redirect(url_for("index"))
+
+            # Process the raw data into Bokeh JS tag
             try:
                 df = process(raw_data)
-            except ValueError as e:
+                script = inline_html(df, show_title)
+                cache_js(show_entry, script, search_type)
+            except ValueError:
                 flash("No valid results found for {}".format(query), "warning")
-                return redirect(url_for("plot"))
-            script = inline_html(df, show_title)
-            return render_template("plot.html", title="Plot", form=form, script=script)
+                return redirect(url_for("index"))
         else:
-            flash("No valid results found for {}.".format(query), "warning")
-            return redirect(url_for("plot"))
-    return render_template("plot.html", title="Legacy", form=form)
+            logger.info("Using cached JS for {}.".format(show_title))
+            script = current_js
+
+        # Render the resulting webpage with embedded plot
+        return render_template(
+            "plot.html",
+            title="Plot",
+            show_title=show_title,
+            form=form,
+            script=script,
+        )
+
+    return render_template("index.html", title="Legacy", form=form)

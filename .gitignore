@@ -12,8 +12,9 @@
 # PyCharm files
 /.idea/
 
-# OMDb API key
+# API keys
 /resources/APIKEY
+/resources/TVDBKEY
 
 # Local JSON data (testing)
 /local_data/*

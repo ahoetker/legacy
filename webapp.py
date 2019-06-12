@@ -1,5 +1,5 @@
 from app import app, db
-from app.models  import Series
+from app.models import Series
 
 
 @app.shell_context_processor

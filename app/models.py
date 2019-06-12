@@ -11,3 +11,5 @@ class Series(db.Model):
 
     def __repr__(self):
         return "<Title {}>".format(self.title)
+
+#TODO Make util.get_current_js, util.cache_js methods of Series

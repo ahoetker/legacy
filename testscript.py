@@ -1,6 +1,6 @@
 from legacy.util import util_get_series_data, process, util_scrape_series_data
 from legacy.plots import datetime_plot, seasons_plot
-from legacy.api import omdb_search
+from legacy.omdb_api import omdb_search
 from legacy.scraping import scrape_seasons, scrape_season_data
 import json
 import sys

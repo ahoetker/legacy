@@ -1,5 +1,5 @@
 import pytest
-from legacy.api import omdb_search, get_seasons
+from legacy.omdb_api import omdb_search, get_seasons
 
 
 def test_omdb_search():
