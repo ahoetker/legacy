@@ -4,13 +4,10 @@ Internal
 from app import app
 from app.forms import SeriesSearchForm
 from legacy.util import (
-    util_get_series_data,
     process,
     search_for_show,
     add_show_to_db,
-    get_current_js,
     download_raw_show_data,
-    cache_js
 )
 from legacy.plots import inline_html
 from legacy.root_logger import get_logger
@@ -54,7 +51,7 @@ def index():
         show_entry = add_show_to_db(show_id, show_title)
 
         # Check for current data given this series and search type
-        current_js = get_current_js(show_entry, search_type)
+        current_js = show_entry.get_current_js(search_type)
 
         # Generate js if not cached
         # Start by getting the raw data from API/scraping
@@ -79,7 +76,7 @@ def index():
             try:
                 df = process(raw_data)
                 script = inline_html(df, show_title)
-                cache_js(show_entry, script, search_type)
+                show_entry.cache_js(script, search_type)
             except ValueError:
                 flash("No valid results found for {}".format(query), "warning")
                 return redirect(url_for("index"))

@@ -20,6 +20,7 @@ COPY config.py setup.py webapp.py wsgi.py docker/boot.sh docker/wait_for_it.sh .
 
 RUN mkdir ./resources
 RUN mkdir ./local_data
+RUN mkdir -p ./app/static/bokehscripts
 RUN chmod +x boot.sh wait_for_it.sh
 RUN chown -R serveruser:serveruser ./
 USER serveruser

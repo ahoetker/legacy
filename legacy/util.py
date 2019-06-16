@@ -7,7 +7,6 @@ from legacy.root_logger import get_logger
 
 import asyncio
 from typing import Dict, Optional
-from datetime import datetime, timedelta
 
 logger = get_logger(__name__)
 
@@ -23,7 +22,6 @@ def process(raw_data):
 
 
 def util_get_series_data(show_id: str, api_key: str = API_KEY):
-
     seasons = get_seasons(show_id)
     loop = asyncio.get_event_loop()
     raw_data = loop.run_until_complete(get_series_data(show_id, seasons))
@@ -82,27 +80,6 @@ def add_show_to_db(show_id: str, show_title: str) -> Series:
     return show_entry
 
 
-def get_current_js(show_entry: Series, search_type: str) -> Optional[Dict]:
-    """
-    Return the up-to-date JavaScript tag for this show, else return None
-    :param show_entry: Series database entry object
-    :return: string containing path to script tag
-    """
-    yesterday = datetime.utcnow() - timedelta(1)
-    js_path = None
-
-    if search_type == "omdb":
-        timestamp = show_entry.created_omdb
-        if timestamp is not None and timestamp > yesterday:
-            js_path = show_entry.js_omdb
-    elif search_type == "alt":
-        timestamp = show_entry.created_imdb
-        if timestamp is not None and timestamp > yesterday:
-            js_path = show_entry.js_imdb
-
-    return js_path
-
-
 def download_raw_show_data(show_id: str, search_type: str) -> Dict:
     """
     Delegate raw data download to another util module method
@@ -119,22 +96,6 @@ def download_raw_show_data(show_id: str, search_type: str) -> Dict:
 
     return series_data
 
-
-def cache_js(show_entry: Series, script: str, search_type: str) -> None:
-    """
-    Add a timestamp corresponding to the appropriate search type
-    :param show_entry: Series database entry object
-    :param search_type: omdb/tvdb/imdb...
-    :return: None
-    """
-    timestamp = datetime.utcnow()
-    if search_type == "omdb":
-        show_entry.js_omdb = script
-        show_entry.created_omdb = timestamp
-    elif search_type == "alt":
-        show_entry.created_imdb = timestamp
-        show_entry.js_imdb = script
-    db.session.commit()
 
 
 

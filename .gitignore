@@ -28,3 +28,6 @@
 
 # Database stuff
 *.db
+
+# docker-compose file (redacted for API key contents)
+docker-compose.yml
