@@ -25,7 +25,7 @@ jedi==0.13.3
 Jinja2==2.10.1
 kiwisolver==1.1.0
 littleutils==0.2.1
-Mako==1.0.12
+Mako==1.2.2
 MarkupSafe==1.1.1
 matplotlib==3.1.0
 more-itertools==7.0.0
